@@ -69,13 +69,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.json_consumer_case.py
+py -m consumers.json_consumer_case
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.json_consumer_case.py
+python3 -m consumers.json_consumer_case
 ```
 
 What did we name the topic used with JSON data? 
