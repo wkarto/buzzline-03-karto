@@ -47,7 +47,7 @@ def get_kafka_topic() -> str:
     return topic
 
 
-def get_kafka_consumer_group_id() -> int:
+def get_kafka_consumer_group_id() -> str:
     """Fetch Kafka consumer group id from environment or use default."""
     group_id: str = os.getenv("BUZZ_CONSUMER_GROUP_ID", "default_group")
     logger.info(f"Kafka consumer group id: {group_id}")
@@ -63,7 +63,7 @@ def get_kafka_consumer_group_id() -> int:
 # pass in the int function as the default_factory
 # to ensure counts are integers
 # {author: count} author is the key and count is the value
-author_counts = defaultdict(int)
+author_counts: defaultdict[str, int] = defaultdict(int)
 
 
 #####################################
@@ -83,24 +83,21 @@ def process_message(message: str) -> None:
         logger.debug(f"Raw message: {message}")
 
         # Parse the JSON string into a Python dictionary
-        message_dict: dict = json.loads(message)
+        from typing import Any
+        message_dict: dict[str, Any] = json.loads(message)
 
         # Ensure the processed JSON is logged for debugging
         logger.info(f"Processed JSON message: {message_dict}")
 
-        # Ensure it's a dictionary before accessing fields
-        if isinstance(message_dict, dict):
-            # Extract the 'author' field from the Python dictionary
-            author = message_dict.get("author", "unknown")
-            logger.info(f"Message received from author: {author}")
+        # Extract the 'author' field from the Python dictionary
+        author = message_dict.get("author", "unknown")
+        logger.info(f"Message received from author: {author}")
 
-            # Increment the count for the author
-            author_counts[author] += 1
+        # Increment the count for the author
+        author_counts[author] += 1
 
-            # Log the updated counts
-            logger.info(f"Updated author counts: {dict(author_counts)}")
-        else:
-            logger.error(f"Expected a dictionary but got: {type(message_dict)}")
+        # Log the updated counts
+        logger.info(f"Updated author counts: {dict(author_counts)}")
 
     except json.JSONDecodeError:
         logger.error(f"Invalid JSON message: {message}")
@@ -134,17 +131,26 @@ def main() -> None:
     # Poll and process messages
     logger.info(f"Polling messages from topic '{topic}'...")
     try:
-        for message in consumer:
-            message_str = message.value
-            logger.debug(f"Received message at offset {message.offset}: {message_str}")
-            process_message(message_str)
+        while True:
+            # poll returns a dict: {TopicPartition: [ConsumerRecord, ...], ...}
+            records = consumer.poll(timeout_ms=1000, max_records=100)
+            if not records:
+                continue
+
+            for _tp, batch in records.items():
+                for msg in batch:
+                    # value_deserializer in utils_consumer already decoded this to str
+                    message_str: str = msg.value
+                    logger.debug(f"Received message at offset {msg.offset}: {message_str}")
+                    process_message(message_str)
     except KeyboardInterrupt:
         logger.warning("Consumer interrupted by user.")
     except Exception as e:
         logger.error(f"Error while consuming messages: {e}")
     finally:
         consumer.close()
-        logger.info(f"Kafka consumer for topic '{topic}' closed.")
+        
+    logger.info(f"Kafka consumer for topic '{topic}' closed.")
 
     logger.info(f"END consumer for topic '{topic}' and group '{group_id}'.")
 

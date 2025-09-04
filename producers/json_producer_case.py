@@ -173,7 +173,7 @@ def main():
     except Exception as e:
         logger.error(f"Error during message production: {e}")
     finally:
-        producer.close()
+        producer.close(timeout=None)
         logger.info("Kafka producer closed.")
 
     logger.info("END producer.")

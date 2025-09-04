@@ -12,14 +12,13 @@ Producers send messages to a Kafka topic.
 import os
 import sys
 import time
+from typing import Callable, Optional, Any
 
 # Import external packages
 from dotenv import load_dotenv
-from kafka import KafkaProducer, KafkaConsumer, errors
+from kafka import KafkaProducer, errors
 from kafka.admin import (
     KafkaAdminClient,
-    ConfigResource,
-    ConfigResourceType,
     NewTopic,
 )
 
@@ -61,8 +60,8 @@ def check_kafka_service_is_ready():
 
     try:
         admin_client = KafkaAdminClient(bootstrap_servers=kafka_broker)
-        brokers = admin_client.describe_cluster()
-        logger.info(f"Kafka is ready. Brokers: {brokers}")
+        cluster_info: dict = admin_client.describe_cluster()
+        logger.info(f"Kafka is ready. Brokers: {cluster_info}")
         admin_client.close()
         return True
     except errors.KafkaError as e:
@@ -76,7 +75,6 @@ def check_kafka_service_is_ready():
 
 
 def verify_services():
-    # Verify Kafka is ready
     if not check_kafka_service_is_ready():
         logger.error(
             "Kafka broker is not ready. Please check your Kafka setup. Exiting..."
@@ -84,7 +82,9 @@ def verify_services():
         sys.exit(2)
 
 
-def create_kafka_producer(value_serializer=None) -> KafkaProducer:
+def create_kafka_producer(
+    value_serializer: Optional[Callable[[Any], bytes]] = None,
+) -> Optional[KafkaProducer]:
     """
     Create and return a Kafka producer instance.
 
@@ -99,8 +99,10 @@ def create_kafka_producer(value_serializer=None) -> KafkaProducer:
 
     if value_serializer is None:
 
-        def value_serializer(x):
+        def default_value_serializer(x: str) -> bytes:
             return x.encode("utf-8")  # Default to string serialization
+
+        value_serializer = default_value_serializer
 
     try:
         logger.info(f"Connecting to Kafka broker at {kafka_broker}...")
@@ -115,92 +117,92 @@ def create_kafka_producer(value_serializer=None) -> KafkaProducer:
         return None
 
 
-def create_kafka_topic(topic_name, group_id=None):
+def _topic_exists(admin: KafkaAdminClient, topic_name: str) -> bool:
+    try:
+        return topic_name in set(admin.list_topics())
+    except Exception:
+        # If listing fails, assume it doesn't exist to avoid false positives
+        return False
+
+
+def _delete_topic_if_exists(admin: KafkaAdminClient, topic_name: str) -> None:
+    """Delete topic if present and wait briefly for deletion to complete."""
+    try:
+        if _topic_exists(admin, topic_name):
+            admin.delete_topics([topic_name])
+            logger.info(f"Requested deletion of topic '{topic_name}'.")
+            # Wait a short time for deletion to propagate
+            deadline = time.time() + 10
+            while time.time() < deadline:
+                if not _topic_exists(admin, topic_name):
+                    break
+                time.sleep(0.2)
+    except Exception as e:
+        logger.warning(f"Ignoring topic deletion issue for '{topic_name}': {e}")
+
+
+def create_kafka_topic(topic_name, group_id=None) -> None:
     """
     Create a fresh Kafka topic with the given name.
+    If it already exists, delete and recreate it (simple reset; no retention tweaks).
+
     Args:
         topic_name (str): Name of the Kafka topic.
+        group_id (str|None): Unused (kept for signature compatibility).
     """
     kafka_broker = get_kafka_broker_address()
+    admin_client = None
 
     try:
         admin_client = KafkaAdminClient(bootstrap_servers=kafka_broker)
 
-        # Check if the topic exists
-        topics = admin_client.list_topics()
-        if topic_name in topics:
-            logger.info(f"Topic '{topic_name}' already exists. Clearing it out...")
-            clear_kafka_topic(topic_name, group_id)
+        if _topic_exists(admin_client, topic_name):
+            logger.info(f"Topic '{topic_name}' already exists. Recreating fresh...")
+            _delete_topic_if_exists(admin_client, topic_name)
 
-        else:
-            logger.info(f"Creating '{topic_name}'.")
-            new_topic = NewTopic(
-                name=topic_name, num_partitions=1, replication_factor=1
-            )
-            admin_client.create_topics([new_topic])
-            logger.info(f"Topic '{topic_name}' created successfully.")
+        new_topic = NewTopic(name=topic_name, num_partitions=1, replication_factor=1)
+        admin_client.create_topics([new_topic])
+        logger.info(f"Topic '{topic_name}' created successfully.")
 
     except Exception as e:
         logger.error(f"Error managing topic '{topic_name}': {e}")
         sys.exit(1)
-
     finally:
-        admin_client.close()
+        if admin_client is not None:
+            try:
+                admin_client.close()
+            except Exception:
+                pass
 
 
-def clear_kafka_topic(topic_name, group_id):
+def clear_kafka_topic(topic_name: str, group_id: Optional[str] = None):
     """
-    Consume and discard all messages in the Kafka topic to clear it.
+    Clear all messages in a Kafka topic by deleting and recreating it.
+    This keeps the same function signature but uses a simpler, more reliable approach.
 
     Args:
         topic_name (str): Name of the Kafka topic.
-        group_id (str): Consumer group ID.
+        group_id (str, optional): Consumer group ID (not used in this simplified version).
     """
     kafka_broker = get_kafka_broker_address()
     admin_client = KafkaAdminClient(bootstrap_servers=kafka_broker)
 
     try:
-        # Fetch the current retention period
-        config_resource = ConfigResource(ConfigResourceType.TOPIC, topic_name)
-        configs = admin_client.describe_configs([config_resource])
-        original_retention = configs[config_resource].get(
-            "retention.ms", "604800000"
-        )  # Default to 7 days
-        logger.info(
-            f"Original retention.ms for topic '{topic_name}': {original_retention}"
-        )
+        logger.info(f"Clearing topic '{topic_name}' by deleting and recreating it.")
 
-        # Temporarily set retention to 1ms
-        admin_client.alter_configs({config_resource: {"retention.ms": "1"}})
-        logger.info(f"Retention.ms temporarily set to 1ms for topic '{topic_name}'.")
+        # Delete the topic if it exists
+        if topic_name in admin_client.list_topics():
+            admin_client.delete_topics([topic_name])
+            logger.info(f"Deleted topic '{topic_name}'.")
+            time.sleep(2)  # allow Kafka time to finish deletion
 
-        # Wait a moment for Kafka to apply retention and delete old data
-        time.sleep(2)
-
-        # Clear remaining messages by consuming and discarding them
-        logger.info(f"Clearing topic '{topic_name}' by consuming all messages...")
-        consumer = KafkaConsumer(
-            topic_name,
-            group_id=group_id,
-            bootstrap_servers=kafka_broker,
-            auto_offset_reset="earliest",
-            enable_auto_commit=True,
-        )
-        for message in consumer:
-            logger.debug(f"Clearing message: {message.value}")
-        consumer.close()
-        logger.info(f"All messages cleared from topic '{topic_name}'.")
-
-        # Restore the original retention period
-        admin_client.alter_configs(
-            {config_resource: {"retention.ms": original_retention}}
-        )
-        logger.info(
-            f"Retention.ms restored to {original_retention} for topic '{topic_name}'."
-        )
+        # Recreate the topic
+        new_topic = NewTopic(name=topic_name, num_partitions=1, replication_factor=1)
+        admin_client.create_topics([new_topic])
+        logger.info(f"Recreated topic '{topic_name}' successfully.")
 
     except Exception as e:
-        logger.error(f"Error managing retention for topic '{topic_name}': {e}")
+        logger.error(f"Error clearing topic '{topic_name}': {e}")
     finally:
         admin_client.close()
 
