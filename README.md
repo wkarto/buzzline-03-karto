@@ -49,7 +49,7 @@ Do **all** steps related to starting Kafka in this WSL window.
 ## Task 1. Start Kafka (using WSL if Windows)
 
 In P2, you downloaded, installed, configured a local Kafka service.
-Before starting, run a short prep script to ensure Kafka has a persistent data directory and meta.properties set up. This step works on WSL, macOS, and Linux - be sure you have the $ prompt!
+Before starting, run a short prep script to ensure Kafka has a persistent data directory and meta.properties set up. This step works on WSL, macOS, and Linux - be sure you have the $ prompt and you are in the root project folder.
 
 1. Make sure the script is executable.
 2. Run the shell script to set up Kafka.
