@@ -21,6 +21,7 @@ import sys
 import time
 import pathlib  # work with file paths
 import json  # work with JSON data
+from typing import Generator, Dict, Any
 
 # Import external packages
 from dotenv import load_dotenv
@@ -80,7 +81,9 @@ logger.info(f"Data file: {DATA_FILE}")
 #####################################
 
 
-def generate_messages(file_path: pathlib.Path):
+
+
+def generate_messages(file_path: pathlib.Path) -> Generator[Dict[str, Any], None, None]:
     """
     Read from a JSON file and yield them one by one, continuously.
 
@@ -97,17 +100,13 @@ def generate_messages(file_path: pathlib.Path):
                 logger.info(f"Reading data from file: {DATA_FILE}")
 
                 # Load the JSON file as a list of dictionaries
-                json_data: list = json.load(json_file)
-
-                if not isinstance(json_data, list):
-                    raise ValueError(
-                        f"Expected a list of JSON objects, got {type(json_data)}."
-                    )
+                json_data: list[Dict[str, Any]] = json.load(json_file)
 
                 # Iterate over the entries in the JSON file
                 for buzz_entry in json_data:
                     logger.debug(f"Generated JSON: {buzz_entry}")
                     yield buzz_entry
+        
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
             sys.exit(1)

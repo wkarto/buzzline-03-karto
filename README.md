@@ -10,38 +10,99 @@ We'll work with two different types of data, and so we'll use two different Kafk
 See [.env](.env). 
 
 
-## Task 1. Use Tools from Module 1 and 2
+## First, Use Tools from Module 1 and 2
 
 Before starting, ensure you have completed the setup tasks in <https://github.com/denisecase/buzzline-01-case> and <https://github.com/denisecase/buzzline-02-case> first. 
-Python 3.11 is required. 
+**Python 3.11 is required.** 
 
-## Task 2. Copy This Example Project and Rename
+## Second, Copy This Example Project & Rename
 
-Once the tools are installed, copy/fork this project into your GitHub account
+1. Once the tools are installed, copy/fork this project into your GitHub account
 and create your own version of this project to run and experiment with.
-Name it `buzzline-03-yourname` where yourname is something unique to you.
-Follow the instructions in [FORK-THIS-REPO.md](https://github.com/denisecase/buzzline-01-case/blob/main/docs/FORK-THIS-REPO.md).
+2. Name it `buzzline-03-yourname` where yourname is something unique to you.
+
+Additional information about our standard professional Python project workflow is available at 
+<https://github.com/denisecase/pro-analytics-01>.
+
+---
     
+## Task 0. If Windows, Start WSL
 
-## Task 3. Manage Local Project Virtual Environment
+- Be sure you have completed the installation of WSL as shown in [https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/03c-windows-install-python-git-vscode.md](https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/03c-windows-install-python-git-vscode.md).
 
-Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/blob/main/docs/MANAGE-VENV.md) to:
-1. Create your .venv
-2. Activate .venv
-3. Install the required dependencies using requirements.txt.
+- We can keep working in **Windows VS Code** for editing, Git, and GitHub.  
+- When you need to run Kafka or Python commands, just open a **WSL terminal** from VS Code.  
 
-## Task 4. Start Zookeeper and Kafka (2 Terminals)
+ Launch WSL. Open a PowerShell terminal in VS Code. Run the following command:
 
-If Zookeeper and Kafka are not already running, you'll need to restart them.
-See instructions at [SETUP-KAFKA.md] to:
+ ````powershell
+ wsl
+ ````
 
-1. Start Zookeeper Service ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-7-start-zookeeper-service-terminal-1))
-2. Start Kafka ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-8-start-kafka-terminal-2))
+You should now be in a Linux shell (prompt shows something like `username@DESKTOP:.../buzzline-02-case$`). 
+ Do **all** steps below in this WSL shell.
 
-## Task 5. Start a JSON Producer
+---
+
+## Task 1. Start Kafka (using WSL if Windows)
+
+In P2, you already downloaded, installed, configured a local Kafka service.
+
+1. Start the Kafka server in the foreground - if Windows, use WSL terminal. 
+2. Keep this terminal open - Kafka will run here
+3. Watch for "started (kafka.server.KafkaServer)" message
+
+````bash
+cd ~/kafka
+bin/kafka-server-start.sh config/kraft/server.properties
+````
+
+**Keep this terminal open!** Kafka is running and needs to stay active.
+
+For detailed instructions, see [SETUP_KAFKA](https://github.com/denisecase/buzzline-01-case/SETUP_KAFKA.md).
+
+## Task 2. Manage Local Project Virtual Environment
+
+Open your project in VS Code and use the commands for your operating system to:
+
+1. Create a Python virtual environment
+2. Activate the virtual environment
+3. Upgrade pip
+4. Install from requirements.txt
+
+### Windows
+
+Open a new PowerShell terminal in VS Code (Terminal / New Terminal / PowerShell).
+
+```powershell
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1
+py -m pip install --upgrade pip wheel setuptools
+py -m pip install --upgrade -r requirements.txt
+```
+
+If you get execution policy error, run this first:
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+### Mac / Linux
+
+Open a new terminal in VS Code (Terminal / New Terminal)
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade -r requirements.txt
+```
+
+---
+
+## Task 3. Start a Kafka JSON Producer
+
+This producer generates streaming JSON data for our topic.
 
 In VS Code, open a terminal.
-Use the commands below to activate .venv, and start the producer. 
+Use the commands below to activate .venv (if not active), and start the producer. 
 
 Windows:
 
@@ -59,9 +120,9 @@ python3 -m producers.json_producer_case
 What did we name the topic used with JSON data? 
 Hint: See the producer code and [.env](.env).
 
-## Task 6. Start a JSON Consumer
+## Task 4. Start a Kafka JSON Consumer
 
-Consumers process streaming data in real time.
+This consumer processes streaming JSON data.
 
 In VS Code, open a NEW terminal in your root project folder. 
 Use the commands below to activate .venv, and start the consumer. 
@@ -81,11 +142,13 @@ python3 -m consumers.json_consumer_case
 What did we name the topic used with JSON data? 
 Hint: See the consumer code and [.env](.env).
 
-## Task 7. Start a CSV Producer
+---
+
+## Task 5. Start a Kafka CSV Producer
 
 Follow a similar process to start the csv producer. 
 You will need to:
-1. Open a new terminal. 
+1. Open a new terminal (yes another)!
 2. Activate your .venv.
 3. Know the command that works on your machine to execute python (e.g. py or python3).
 4. Know how to use the -m (module flag to run your file as a module).
@@ -94,11 +157,17 @@ You will need to:
 What did we name the topic used with csv data? 
 Hint: See the producer code and [.env](.env).
 
-## Task 8. Start a CSV Consumer
+Hint: Windows:
+```shell
+.venv\Scripts\activate
+py -m producers.csv_producer_case
+```
+
+## Task 6. Start a Kafka CSV Consumer
 
 Follow a similar process to start the csv consumer. 
 You will need to:
-1. Open a new terminal. 
+1. Open a new terminal (yes another)!
 2. Activate your .venv.
 3. Know the command that works on your machine to execute python (e.g. py or python3).
 4. Know how to use the -m (module flag to run your file as a module).
@@ -106,6 +175,17 @@ You will need to:
 
 What did we name the topic used with csv data? 
 Hint: See the consumer code and [.env](.env).
+
+Hint: Windows:
+```shell
+.venv\Scripts\activate
+py -m consumers.csv_consumer_case
+```
+---
+
+## How To Stop a Continuous Process
+
+To kill the terminal, hit CTRL c (hold both CTRL key and c key down at the same time).
 
 ## About the Smart Smoker (CSV Example)
 
@@ -126,17 +206,19 @@ capture recent trends while filtering out minor fluctuations.
 
 ## Later Work Sessions
 When resuming work on this project:
-1. Open the folder in VS Code. 
-2. Start the Zookeeper service.
-3. Start the Kafka service.
-4. Activate your local project virtual environment (.env).
+
+1. Open the project folder in VS Code.
+2. Start the Kafka service (in WSL if Windows).
+3. Activate your local project virtual environment (.venv) in your OS-specific terminal. 
 
 ## Save Space
+
 To save disk space, you can delete the .venv folder when not actively working on this project.
 You can always recreate it, activate it, and reinstall the necessary packages later. 
 Managing Python virtual environments is a valuable skill. 
 
 ## License
+
 This project is licensed under the MIT License as an example project. 
 You are encouraged to fork, copy, explore, and modify the code as you like. 
 See the [LICENSE](LICENSE.txt) file for more.

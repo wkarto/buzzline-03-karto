@@ -8,10 +8,13 @@ Logging is an essential way to track events and issues during execution.
 Features:
 - Logs information, warnings, and errors to a designated log file.
 - Ensures the log directory exists.
+- Sanitizes logs to remove personal/identifying information for GitHub sharing.
 """
 
 # Imports from Python Standard Library
 import pathlib
+import os
+import getpass
 
 # Imports from external packages
 from loguru import logger
@@ -25,6 +28,36 @@ LOG_FOLDER: pathlib.Path = pathlib.Path("logs")
 # Set the name of the log file
 LOG_FILE: pathlib.Path = LOG_FOLDER.joinpath("project_log.log")
 
+# Sanitization function to remove identifying info
+def sanitize_message(record):
+    """Remove personal/identifying information from log messages."""
+    message = record["message"]
+    
+    # Replace username with generic placeholder
+    current_user = getpass.getuser()
+    message = message.replace(current_user, "USER")
+    
+    # Replace home directory paths
+    home_path = str(pathlib.Path.home())
+    message = message.replace(home_path, "~")
+    
+    # Replace absolute paths with relative ones
+    cwd = str(pathlib.Path.cwd())
+    message = message.replace(cwd, "PROJECT_ROOT")
+    
+    # Replace Windows paths with forward slashes for consistency
+    message = message.replace("\\", "/")
+    
+    # Update the record
+    record["message"] = message
+    return message
+
+# Custom format that uses sanitized messages
+def format_sanitized(record):
+    """Custom formatter that sanitizes messages."""
+    sanitize_message(record)
+    return "{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}\n"
+
 # Ensure the log folder exists or create it
 try:
     LOG_FOLDER.mkdir(exist_ok=True)
@@ -32,10 +65,19 @@ try:
 except Exception as e:
     logger.error(f"Error creating log folder: {e}")
 
-# Configure Loguru to write to the log file
+# Configure Loguru to write to the log file with sanitization
 try:
-    logger.add(LOG_FILE, level="INFO")
+    logger.add(
+        LOG_FILE, 
+        level="INFO",
+        rotation="50 kB",      # Small files
+        retention=0,           # Keep only current log
+        compression=None,      # No compression needed
+        format=format_sanitized,  # Use sanitized format
+        filter=lambda record: sanitize_message(record) or True  # Sanitize before writing
+    )
     logger.info(f"Logging to file: {LOG_FILE}")
+    logger.info("Log sanitization enabled, personal info will be removed")
 except Exception as e:
     logger.error(f"Error configuring logger to write to file: {e}")
 
@@ -49,6 +91,8 @@ def log_example() -> None:
     """Example logging function to demonstrate logging behavior."""
     try:
         logger.info("This is an example info message.")
+        logger.info(f"Current working directory: {pathlib.Path.cwd()}")
+        logger.info(f"User home directory: {pathlib.Path.home()}")
         logger.warning("This is an example warning message.")
         logger.error("This is an example error message.")
     except Exception as e:

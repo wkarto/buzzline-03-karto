@@ -5,7 +5,7 @@ Consumers subscribe to a topic and read messages from the Kafka topic.
 """
 
 #####################################
-# Imports
+# Import Modules
 #####################################
 
 
@@ -41,9 +41,7 @@ def create_kafka_consumer(
     kafka_broker = get_kafka_broker_address()
     topic = topic_provided
     consumer_group_id = group_id_provided or "test_group"
-    logger.info(
-        f"Creating Kafka consumer. Topic='{topic}' and group ID='{group_id_provided}'."
-    )
+    logger.info(f"Creating Kafka consumer. Topic='{topic}' and group ID='{group_id_provided}'.")
     logger.debug(f"Kafka broker: {kafka_broker}")
 
     try:

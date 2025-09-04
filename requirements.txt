@@ -12,11 +12,18 @@
 # If it gets messed up, we can delete .venv and recreate it at any time. 
 
 # Run the following command to create a virtual environment in the project root.
+
 ### On Windows, Use PowerShell (not cmd) - don't include the #:
 # py -3.11 -m venv .venv
 
-### On Mac/Linux, Use zsh or bash (or PowerShell) - don't include the #:
-# python3 -3.11 -m venv .venv
+### On Mac  - don't include the #:
+# brew install python@3.11
+# python3 -m venv .venv
+
+### On Linux/WSL - don't include the #:
+# sudo apt update
+# sudo apt install python3.11 python3.11-venv
+# python3.11 -m venv .venv
 
 ### If VS Code asks: We noticed a new environment has been created. 
 # Do you want to select it for the workspace folder?
@@ -99,8 +106,10 @@ numpy
 pandas
 
 # ======================================================
-# KAFKA MESSAGE BROKER INTEGRATION
+# KAFKA STREAMING MESSAGE BROKER INTEGRATION
 # ======================================================
 
-# Apache Kafka Python client
-kafka-python
+# Kafka Python client (lightweight, ~1 MB)
+# Supports Kafka 3.5+ with KRaft mode (no ZooKeeper required)
+kafka-python-ng
+
