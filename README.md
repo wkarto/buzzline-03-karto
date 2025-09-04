@@ -24,6 +24,8 @@ and create your own version of this project to run and experiment with.
 Additional information about our standard professional Python project workflow is available at 
 <https://github.com/denisecase/pro-analytics-01>.
 
+Use your README.md to record your workflow and commands. 
+
 ---
     
 ## Task 0. If Windows, Start WSL
@@ -39,14 +41,16 @@ Additional information about our standard professional Python project workflow i
  wsl
  ````
 
-You should now be in a Linux shell (prompt shows something like `username@DESKTOP:.../buzzline-02-case$`). 
- Do **all** steps below in this WSL shell.
+You should now be in a Linux shell (prompt shows something like `username@DESKTOP:.../repo-name$`). 
+
+Do **all** steps below in this WSL shell.
 
 ---
 
 ## Task 1. Start Kafka (using WSL if Windows)
 
-In P2, you already downloaded, installed, configured a local Kafka service.
+In P2, you downloaded, installed, configured a local Kafka service.
+We just need to start it. 
 
 1. Start the Kafka server in the foreground - if Windows, use WSL terminal. 
 2. Keep this terminal open - Kafka will run here
@@ -60,6 +64,8 @@ bin/kafka-server-start.sh config/kraft/server.properties
 **Keep this terminal open!** Kafka is running and needs to stay active.
 
 For detailed instructions, see [SETUP_KAFKA](https://github.com/denisecase/buzzline-01-case/SETUP_KAFKA.md).
+
+---
 
 ## Task 2. Manage Local Project Virtual Environment
 
@@ -210,6 +216,19 @@ When resuming work on this project:
 1. Open the project folder in VS Code.
 2. Start the Kafka service (in WSL if Windows).
 3. Activate your local project virtual environment (.venv) in your OS-specific terminal. 
+4. Run `git pull`
+
+## After Making Useful Changes
+
+1. Git add everything to source control (`git add .`)
+2. Git commit with a -m message.
+3. Git push to origin main. 
+
+```shell
+git add .
+git commit -m "your message in quotes"
+git push -u origin main
+```
 
 ## Save Space
 
