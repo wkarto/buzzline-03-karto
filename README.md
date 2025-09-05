@@ -67,7 +67,7 @@ bin/kafka-server-start.sh config/kraft/server.properties
 
 **Keep this terminal open!** Kafka is running and needs to stay active.
 
-For detailed instructions, see [SETUP_KAFKA](https://github.com/denisecase/buzzline-01-case/SETUP_KAFKA.md).
+For detailed instructions, see [SETUP_KAFKA](https://github.com/denisecase/buzzline-02-case/blob/main/SETUP_KAFKA.md) from Project 2. 
 
 ---
 
