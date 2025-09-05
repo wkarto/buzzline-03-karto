@@ -226,10 +226,10 @@ capture recent trends while filtering out minor fluctuations.
 
 When resuming work on this project:
 
-1. Open the project folder in VS Code.
-2. Start the Kafka service (in WSL if Windows).
+1. Open the project repository folder in VS Code. 
+2. Start the Kafka service (use WSL if Windows) and keep the terminal running. 
 3. Activate your local project virtual environment (.venv) in your OS-specific terminal.
-4. Run `git pull`
+4. Run `git pull` to get any changes made from the remote repo (on GitHub).
 
 ## After Making Useful Changes
 
