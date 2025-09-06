@@ -1,393 +1,270 @@
-2025-09-07 02:54:10 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:10.896116', 'temperature': 142.2}
-2025-09-07 02:54:15 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:15.909337', 'temperature': 142.0}
-2025-09-07 02:54:20 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:20.915928', 'temperature': 142.2}
-2025-09-07 02:54:25 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:25.926143', 'temperature': 142.0}
-2025-09-07 02:54:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:30.934237', 'temperature': 142.2}
-2025-09-07 02:54:35 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:35.941199', 'temperature': 142.0}
-2025-09-07 02:54:40 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:40.957866', 'temperature': 142.2}
-2025-09-07 02:54:45 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:45.967414', 'temperature': 142.0}
-2025-09-07 02:54:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:50.981820', 'temperature': 142.2}
-2025-09-07 02:54:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:55.986283', 'temperature': 142.0}
-2025-09-07 02:55:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:00.992832', 'temperature': 142.2}
-2025-09-07 02:55:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:05.996585', 'temperature': 142.0}
-2025-09-07 02:55:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:11.005414', 'temperature': 142.2}
-2025-09-07 02:55:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:16.012807', 'temperature': 142.0}
-2025-09-07 02:55:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:21.022116', 'temperature': 142.2}
-2025-09-07 02:55:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:26.038116', 'temperature': 142.0}
-2025-09-07 02:55:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:31.051394', 'temperature': 142.2}
-2025-09-07 02:55:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:36.060077', 'temperature': 142.0}
-2025-09-07 02:55:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:41.073804', 'temperature': 142.2}
-2025-09-07 02:55:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:46.079633', 'temperature': 142.0}
-2025-09-07 02:55:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:51.090138', 'temperature': 142.2}
-2025-09-07 02:55:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:25:56.100016', 'temperature': 142.0}
-2025-09-07 02:56:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:01.107209', 'temperature': 142.2}
-2025-09-07 02:56:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:06.113790', 'temperature': 142.0}
-2025-09-07 02:56:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:11.128134', 'temperature': 142.2}
-2025-09-07 02:56:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:16.144938', 'temperature': 142.0}
-2025-09-07 02:56:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:21.149799', 'temperature': 142.2}
-2025-09-07 02:56:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:26.162438', 'temperature': 142.0}
-2025-09-07 02:56:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:31.172289', 'temperature': 142.2}
-2025-09-07 02:56:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:36.180710', 'temperature': 142.0}
-2025-09-07 02:56:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:41.185790', 'temperature': 142.2}
-2025-09-07 02:56:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:46.195724', 'temperature': 142.0}
-2025-09-07 02:56:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:51.198873', 'temperature': 142.2}
-2025-09-07 02:56:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:26:56.202808', 'temperature': 142.0}
-2025-09-07 02:57:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:01.219835', 'temperature': 142.2}
-2025-09-07 02:57:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:06.234177', 'temperature': 142.0}
-2025-09-07 02:57:11 | INFO | [Karto CSV Producer] Opening data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/smoker_temps.csv
-2025-09-07 02:57:11 | INFO | [Karto CSV Producer] Reading data from file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/smoker_temps.csv
-2025-09-07 02:57:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:11.251467', 'temperature': 70.4}
-2025-09-07 02:57:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:16.268203', 'temperature': 70.8}
-2025-09-07 02:57:17 | INFO | Logging to file: logs/project_log.log
-2025-09-07 02:57:17 | INFO | Log sanitization enabled, personal info removed
-2025-09-07 02:57:17 | INFO | [Karto Producer] Project root: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto
-2025-09-07 02:57:17 | INFO | [Karto Producer] Data folder: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data
-2025-09-07 02:57:17 | INFO | Data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_stock_alerts.json
-2025-09-07 02:57:17 | INFO | [Karto Producer] START producer.
-2025-09-07 02:57:17 | INFO | Kafka broker address: localhost:9092
-2025-09-07 02:57:17 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'SqYRc-d-QWaPXKd66k0apQ', 'controller_id': 1}
-2025-09-07 02:57:17 | INFO | [Karto Producer] Kafka topic: buzzline_json
-2025-09-07 02:57:17 | INFO | [Karto Producer] Message interval: 1 seconds
-2025-09-07 02:57:17 | INFO | Kafka broker address: localhost:9092
-2025-09-07 02:57:17 | INFO | Connecting to Kafka broker at localhost:9092...
-2025-09-07 02:57:17 | INFO | Kafka producer successfully created.
-2025-09-07 02:57:17 | INFO | Kafka broker address: localhost:9092
-2025-09-07 02:57:18 | INFO | Topic 'buzzline_json' already exists. Recreating fresh...
-2025-09-07 02:57:18 | INFO | Requested deletion of topic 'buzzline_json'.
-2025-09-07 02:57:18 | INFO | Topic 'buzzline_json' created successfully.
-2025-09-07 02:57:18 | INFO | [Karto Producer] Kafka topic 'buzzline_json' is ready.
-2025-09-07 02:57:18 | INFO | [Karto Producer] Starting to send messages to 'buzzline_json'...
-2025-09-07 02:57:18 | INFO | [Karto Producer] Opening file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_stock_alerts.json
-2025-09-07 02:57:18 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 160.35, 'change_pct': -1.95}
-2025-09-07 02:57:19 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 131.36, 'change_pct': -2.94}
-2025-09-07 02:57:20 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 390.47, 'change_pct': -2.25}
-2025-09-07 02:57:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:21.272257', 'temperature': 71.2}
-2025-09-07 02:57:21 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 160.14, 'change_pct': -0.57}
-2025-09-07 02:57:22 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 132.26, 'change_pct': -3.3}
-2025-09-07 02:57:23 | WARNING | [Karto Producer] Interrupted by user.
-2025-09-07 02:57:23 | INFO | [Karto Producer] Kafka producer closed.
-2025-09-07 02:57:23 | INFO | [Karto Producer] END producer.
-2025-09-07 02:57:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:26.284328', 'temperature': 71.6}
-2025-09-07 02:57:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:31.288775', 'temperature': 72.0}
-2025-09-07 02:57:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:36.293217', 'temperature': 72.4}
-2025-09-07 02:57:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:41.309712', 'temperature': 72.8}
-2025-09-07 02:57:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:46.322268', 'temperature': 73.2}
-2025-09-07 02:57:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:51.330950', 'temperature': 73.6}
-2025-09-07 02:57:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:27:56.339772', 'temperature': 74.0}
-2025-09-07 02:58:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:01.353111', 'temperature': 74.4}
-2025-09-07 02:58:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:06.357288', 'temperature': 74.8}
-2025-09-07 02:58:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:11.360817', 'temperature': 75.2}
-2025-09-07 02:58:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:16.375806', 'temperature': 75.6}
-2025-09-07 02:58:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:21.392916', 'temperature': 76.0}
-2025-09-07 02:58:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:26.403037', 'temperature': 76.4}
-2025-09-07 02:58:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:31.410954', 'temperature': 76.8}
-2025-09-07 02:58:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:36.422928', 'temperature': 77.2}
-2025-09-07 02:58:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:41.439585', 'temperature': 77.6}
-2025-09-07 02:58:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:46.443938', 'temperature': 78.0}
-2025-09-07 02:58:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:51.447686', 'temperature': 78.4}
-2025-09-07 02:58:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:28:56.457855', 'temperature': 78.8}
-2025-09-07 02:59:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:01.469513', 'temperature': 79.2}
-2025-09-07 02:59:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:06.484748', 'temperature': 79.6}
-2025-09-07 02:59:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:11.498591', 'temperature': 80.0}
-2025-09-07 02:59:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:16.510875', 'temperature': 80.4}
-2025-09-07 02:59:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:21.516503', 'temperature': 80.8}
-2025-09-07 02:59:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:26.521425', 'temperature': 81.2}
-2025-09-07 02:59:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:31.530372', 'temperature': 81.6}
-2025-09-07 02:59:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:36.540799', 'temperature': 82.0}
-2025-09-07 02:59:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:41.555887', 'temperature': 82.4}
-2025-09-07 02:59:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:46.565956', 'temperature': 82.8}
-2025-09-07 02:59:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:51.577798', 'temperature': 83.2}
-2025-09-07 02:59:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:29:56.585843', 'temperature': 83.6}
-2025-09-07 03:00:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:01.594343', 'temperature': 84.0}
-2025-09-07 03:00:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:06.600970', 'temperature': 84.4}
-2025-09-07 03:00:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:11.610699', 'temperature': 84.8}
-2025-09-07 03:00:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:16.620004', 'temperature': 85.2}
-2025-09-07 03:00:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:21.632209', 'temperature': 85.6}
-2025-09-07 03:00:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:26.645282', 'temperature': 86.0}
-2025-09-07 03:00:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:31.653390', 'temperature': 86.4}
-2025-09-07 03:00:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:36.666818', 'temperature': 86.8}
-2025-09-07 03:00:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:41.676853', 'temperature': 87.2}
-2025-09-07 03:00:43 | INFO | Logging to file: logs/project_log.log
-2025-09-07 03:00:43 | INFO | Log sanitization enabled, personal info removed
-2025-09-07 03:00:43 | INFO | [Karto Producer] Project root: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto
-2025-09-07 03:00:43 | INFO | [Karto Producer] Data folder: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data
-2025-09-07 03:00:43 | INFO | Data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_stock_alerts.json
-2025-09-07 03:00:43 | INFO | [Karto Producer] START producer.
-2025-09-07 03:00:43 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:00:44 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'SqYRc-d-QWaPXKd66k0apQ', 'controller_id': 1}
-2025-09-07 03:00:44 | INFO | [Karto Producer] Kafka topic: buzzline_json
-2025-09-07 03:00:44 | INFO | [Karto Producer] Message interval: 1 seconds
-2025-09-07 03:00:44 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:00:44 | INFO | Connecting to Kafka broker at localhost:9092...
-2025-09-07 03:00:44 | INFO | Kafka producer successfully created.
-2025-09-07 03:00:44 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:00:44 | INFO | Topic 'buzzline_json' already exists. Recreating fresh...
-2025-09-07 03:00:44 | INFO | Requested deletion of topic 'buzzline_json'.
-2025-09-07 03:00:44 | INFO | Topic 'buzzline_json' created successfully.
-2025-09-07 03:00:44 | INFO | [Karto Producer] Kafka topic 'buzzline_json' is ready.
-2025-09-07 03:00:44 | INFO | [Karto Producer] Starting to send messages to 'buzzline_json'...
-2025-09-07 03:00:44 | INFO | [Karto Producer] Opening file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_stock_alerts.json
-2025-09-07 03:00:44 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 160.35, 'change_pct': -1.95}
-2025-09-07 03:00:45 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 131.36, 'change_pct': -2.94}
-2025-09-07 03:00:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:46.679265', 'temperature': 87.6}
-2025-09-07 03:00:46 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 390.47, 'change_pct': -2.25}
-2025-09-07 03:00:47 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 160.14, 'change_pct': -0.57}
-2025-09-07 03:00:48 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 132.26, 'change_pct': -3.3}
-2025-09-07 03:00:49 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 177.39, 'change_pct': 3.01}
-2025-09-07 03:00:49 | INFO | Logging to file: logs/project_log.log
-2025-09-07 03:00:49 | INFO | Log sanitization enabled, personal info removed
-2025-09-07 03:00:49 | INFO | [Karto JSON Consumer] START consumer.
-2025-09-07 03:00:49 | INFO | [Karto JSON Consumer] Kafka topic: buzzline_json
-2025-09-07 03:00:49 | INFO | [Karto JSON Consumer] Kafka consumer group id: buzz_group
-2025-09-07 03:00:49 | INFO | [Karto JSON Consumer] Consumer: Topic 'buzzline_json' and group 'buzz_group'...
-2025-09-07 03:00:49 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:00:49 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
-2025-09-07 03:00:50 | INFO | Kafka consumer created successfully.
-2025-09-07 03:00:50 | INFO | [Karto JSON Consumer] Polling messages from topic 'buzzline_json'...
-2025-09-07 03:00:50 | ERROR | [Karto JSON Consumer] Error while consuming messages: Invalid file descriptor: -1
-2025-09-07 03:00:50 | INFO | [Karto JSON Consumer] Kafka consumer for topic 'buzzline_json' closed.
-2025-09-07 03:00:50 | INFO | [Karto JSON Consumer] END consumer for topic 'buzzline_json' and group 'buzz_group'.
-2025-09-07 03:00:50 | INFO | [Karto Producer] Sent message: {'symbol': 'TSLA', 'price': 214.7, 'change_pct': -1.71}
-2025-09-07 03:00:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:51.690026', 'temperature': 88.0}
-2025-09-07 03:00:51 | INFO | [Karto Producer] Sent message: {'symbol': 'INTC', 'price': 128.32, 'change_pct': -4.43}
-2025-09-07 03:00:52 | INFO | [Karto Producer] Sent message: {'symbol': 'META', 'price': 232.69, 'change_pct': 3.14}
-2025-09-07 03:00:53 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 366.07, 'change_pct': 0.49}
-2025-09-07 03:00:54 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 458.81, 'change_pct': -2.54}
-2025-09-07 03:00:55 | INFO | [Karto Producer] Sent message: {'symbol': 'GOOG', 'price': 296.0, 'change_pct': 4.6}
-2025-09-07 03:00:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:30:56.693177', 'temperature': 88.4}
-2025-09-07 03:00:56 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 411.53, 'change_pct': -1.49}
-2025-09-07 03:00:57 | INFO | [Karto Producer] Sent message: {'symbol': 'GOOG', 'price': 368.35, 'change_pct': -1.48}
-2025-09-07 03:00:58 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 55.8, 'change_pct': -2.32}
-2025-09-07 03:00:59 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 187.05, 'change_pct': -3.5}
-2025-09-07 03:01:00 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 143.58, 'change_pct': 4.4}
-2025-09-07 03:01:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:01.708337', 'temperature': 88.8}
-2025-09-07 03:01:01 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 75.99, 'change_pct': 0.82}
-2025-09-07 03:01:03 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 172.18, 'change_pct': 3.05}
-2025-09-07 03:01:04 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 116.37, 'change_pct': 3.81}
-2025-09-07 03:01:05 | INFO | [Karto Producer] Sent message: {'symbol': 'NVDA', 'price': 236.63, 'change_pct': 2.23}
-2025-09-07 03:01:06 | INFO | [Karto Producer] Sent message: {'symbol': 'TSLA', 'price': 397.4, 'change_pct': 0.53}
-2025-09-07 03:01:06 | INFO | Logging to file: logs/project_log.log
-2025-09-07 03:01:06 | INFO | Log sanitization enabled, personal info removed
-2025-09-07 03:01:06 | INFO | [Karto JSON Consumer] START consumer.
-2025-09-07 03:01:06 | INFO | [Karto JSON Consumer] Kafka topic: buzzline_json
-2025-09-07 03:01:06 | INFO | [Karto JSON Consumer] Kafka consumer group id: buzz_group
-2025-09-07 03:01:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:06.718629', 'temperature': 89.2}
-2025-09-07 03:01:06 | INFO | [Karto JSON Consumer] Consumer: Topic 'buzzline_json' and group 'buzz_group'...
-2025-09-07 03:01:06 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:01:06 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
-2025-09-07 03:01:06 | INFO | Kafka consumer created successfully.
-2025-09-07 03:01:06 | INFO | [Karto JSON Consumer] Polling messages from topic 'buzzline_json'...
-2025-09-07 03:01:06 | ERROR | [Karto JSON Consumer] Error while consuming messages: Invalid file descriptor: -1
-2025-09-07 03:01:06 | INFO | [Karto JSON Consumer] Kafka consumer for topic 'buzzline_json' closed.
-2025-09-07 03:01:06 | INFO | [Karto JSON Consumer] END consumer for topic 'buzzline_json' and group 'buzz_group'.
-2025-09-07 03:01:07 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 94.37, 'change_pct': 3.77}
-2025-09-07 03:01:08 | INFO | [Karto Producer] Sent message: {'symbol': 'AMZN', 'price': 135.24, 'change_pct': -3.19}
-2025-09-07 03:01:09 | INFO | [Karto Producer] Sent message: {'symbol': 'AMZN', 'price': 136.79, 'change_pct': -2.16}
-2025-09-07 03:01:10 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 143.5, 'change_pct': -1.9}
-2025-09-07 03:01:11 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 381.55, 'change_pct': 4.85}
-2025-09-07 03:01:11 | WARNING | [Karto Producer] Interrupted by user.
-2025-09-07 03:01:11 | INFO | [Karto Producer] Kafka producer closed.
-2025-09-07 03:01:11 | INFO | [Karto Producer] END producer.
-2025-09-07 03:01:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:11.723721', 'temperature': 89.6}
-2025-09-07 03:01:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:16.727627', 'temperature': 90.0}
-2025-09-07 03:01:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:21.735430', 'temperature': 90.4}
-2025-09-07 03:01:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:26.749056', 'temperature': 90.8}
-2025-09-07 03:01:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:31.754254', 'temperature': 91.2}
-2025-09-07 03:01:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:36.756367', 'temperature': 91.6}
-2025-09-07 03:01:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:41.762013', 'temperature': 92.0}
-2025-09-07 03:01:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:46.770597', 'temperature': 92.4}
-2025-09-07 03:01:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:51.782690', 'temperature': 92.8}
-2025-09-07 03:01:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:31:56.797906', 'temperature': 93.2}
-2025-09-07 03:02:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:01.813060', 'temperature': 93.6}
-2025-09-07 03:02:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:06.817504', 'temperature': 94.0}
-2025-09-07 03:02:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:11.826003', 'temperature': 94.4}
-2025-09-07 03:02:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:16.832403', 'temperature': 94.8}
-2025-09-07 03:02:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:21.836312', 'temperature': 95.2}
-2025-09-07 03:02:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:26.853854', 'temperature': 95.6}
-2025-09-07 03:02:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:31.857995', 'temperature': 96.0}
-2025-09-07 03:02:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:36.870350', 'temperature': 96.4}
-2025-09-07 03:02:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:41.877747', 'temperature': 96.8}
-2025-09-07 03:02:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:46.880035', 'temperature': 97.2}
-2025-09-07 03:02:51 | INFO | Logging to file: logs/project_log.log
-2025-09-07 03:02:51 | INFO | Log sanitization enabled, personal info removed
-2025-09-07 03:02:51 | INFO | [Karto Producer] Project root: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto
-2025-09-07 03:02:51 | INFO | [Karto Producer] Data folder: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data
-2025-09-07 03:02:51 | INFO | Data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_stock_alerts.json
-2025-09-07 03:02:51 | INFO | [Karto Producer] START producer.
-2025-09-07 03:02:51 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:02:51 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'SqYRc-d-QWaPXKd66k0apQ', 'controller_id': 1}
-2025-09-07 03:02:51 | INFO | [Karto Producer] Kafka topic: buzzline_json
-2025-09-07 03:02:51 | INFO | [Karto Producer] Message interval: 1 seconds
-2025-09-07 03:02:51 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:02:51 | INFO | Connecting to Kafka broker at localhost:9092...
-2025-09-07 03:02:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:51.885826', 'temperature': 97.6}
-2025-09-07 03:02:52 | INFO | Kafka producer successfully created.
-2025-09-07 03:02:52 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:02:52 | INFO | Topic 'buzzline_json' already exists. Recreating fresh...
-2025-09-07 03:02:52 | INFO | Requested deletion of topic 'buzzline_json'.
-2025-09-07 03:02:52 | INFO | Topic 'buzzline_json' created successfully.
-2025-09-07 03:02:52 | INFO | [Karto Producer] Kafka topic 'buzzline_json' is ready.
-2025-09-07 03:02:52 | INFO | [Karto Producer] Starting to send messages to 'buzzline_json'...
-2025-09-07 03:02:52 | INFO | [Karto Producer] Opening file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_stock_alerts.json
-2025-09-07 03:02:52 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 160.35, 'change_pct': -1.95}
-2025-09-07 03:02:53 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 131.36, 'change_pct': -2.94}
-2025-09-07 03:02:54 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 390.47, 'change_pct': -2.25}
-2025-09-07 03:02:55 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 160.14, 'change_pct': -0.57}
-2025-09-07 03:02:56 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 132.26, 'change_pct': -3.3}
-2025-09-07 03:02:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:32:56.892010', 'temperature': 98.0}
-2025-09-07 03:02:57 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 177.39, 'change_pct': 3.01}
-2025-09-07 03:02:58 | INFO | [Karto Producer] Sent message: {'symbol': 'TSLA', 'price': 214.7, 'change_pct': -1.71}
-2025-09-07 03:02:59 | INFO | [Karto Producer] Sent message: {'symbol': 'INTC', 'price': 128.32, 'change_pct': -4.43}
-2025-09-07 03:03:00 | INFO | [Karto Producer] Sent message: {'symbol': 'META', 'price': 232.69, 'change_pct': 3.14}
-2025-09-07 03:03:01 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 366.07, 'change_pct': 0.49}
-2025-09-07 03:03:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:01.896054', 'temperature': 98.4}
-2025-09-07 03:03:02 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 458.81, 'change_pct': -2.54}
-2025-09-07 03:03:03 | INFO | [Karto Producer] Sent message: {'symbol': 'GOOG', 'price': 296.0, 'change_pct': 4.6}
-2025-09-07 03:03:04 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 411.53, 'change_pct': -1.49}
-2025-09-07 03:03:05 | INFO | Logging to file: logs/project_log.log
-2025-09-07 03:03:05 | INFO | Log sanitization enabled, personal info removed
-2025-09-07 03:03:05 | INFO | [Karto JSON Consumer] START consumer.
-2025-09-07 03:03:05 | INFO | [Karto JSON Consumer] Kafka topic: buzzline_json
-2025-09-07 03:03:05 | INFO | [Karto JSON Consumer] Kafka consumer group id: buzz_group
-2025-09-07 03:03:05 | INFO | [Karto JSON Consumer] Consumer: Topic 'buzzline_json' and group 'buzz_group'...
-2025-09-07 03:03:05 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:03:05 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
-2025-09-07 03:03:05 | INFO | Kafka consumer created successfully.
-2025-09-07 03:03:05 | INFO | [Karto JSON Consumer] Polling messages from topic 'buzzline_json'...
-2025-09-07 03:03:05 | ERROR | [Karto JSON Consumer] Error while consuming messages: Invalid file descriptor: -1
-2025-09-07 03:03:05 | INFO | [Karto JSON Consumer] Kafka consumer for topic 'buzzline_json' closed.
-2025-09-07 03:03:05 | INFO | [Karto JSON Consumer] END consumer for topic 'buzzline_json' and group 'buzz_group'.
-2025-09-07 03:03:05 | INFO | [Karto Producer] Sent message: {'symbol': 'GOOG', 'price': 368.35, 'change_pct': -1.48}
-2025-09-07 03:03:06 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 55.8, 'change_pct': -2.32}
-2025-09-07 03:03:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:06.898478', 'temperature': 98.8}
-2025-09-07 03:03:07 | INFO | Logging to file: logs/project_log.log
-2025-09-07 03:03:07 | INFO | Log sanitization enabled, personal info removed
-2025-09-07 03:03:07 | INFO | [Karto JSON Consumer] START consumer.
-2025-09-07 03:03:07 | INFO | [Karto JSON Consumer] Kafka topic: buzzline_json
-2025-09-07 03:03:07 | INFO | [Karto JSON Consumer] Kafka consumer group id: buzz_group
-2025-09-07 03:03:07 | INFO | [Karto JSON Consumer] Consumer: Topic 'buzzline_json' and group 'buzz_group'...
-2025-09-07 03:03:07 | INFO | Kafka broker address: localhost:9092
-2025-09-07 03:03:07 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
-2025-09-07 03:03:07 | INFO | Kafka consumer created successfully.
-2025-09-07 03:03:07 | INFO | [Karto JSON Consumer] Polling messages from topic 'buzzline_json'...
-2025-09-07 03:03:07 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 187.05, 'change_pct': -3.5}
-2025-09-07 03:03:08 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 143.58, 'change_pct': 4.4}
-2025-09-07 03:03:09 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 75.99, 'change_pct': 0.82}
-2025-09-07 03:03:10 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 172.18, 'change_pct': 3.05}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AMD', 'price': 131.36, 'change_pct': -2.94}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 1}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'MSFT', 'price': 390.47, 'change_pct': -2.25}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 2}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AMD', 'price': 160.14, 'change_pct': -0.57}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 3}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AMD', 'price': 132.26, 'change_pct': -3.3}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 4}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AAPL', 'price': 177.39, 'change_pct': 3.01}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 5}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'TSLA', 'price': 214.7, 'change_pct': -1.71}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 6}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'INTC', 'price': 128.32, 'change_pct': -4.43}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 7}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'META', 'price': 232.69, 'change_pct': 3.14}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 8}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'NFLX', 'price': 366.07, 'change_pct': 0.49}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 9}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'MSFT', 'price': 458.81, 'change_pct': -2.54}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 10}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'GOOG', 'price': 296.0, 'change_pct': 4.6}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 11}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'NFLX', 'price': 411.53, 'change_pct': -1.49}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 12}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'GOOG', 'price': 368.35, 'change_pct': -1.48}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 13}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AMD', 'price': 55.8, 'change_pct': -2.32}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 14}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AAPL', 'price': 187.05, 'change_pct': -3.5}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 15}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AAPL', 'price': 143.58, 'change_pct': 4.4}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 16}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'NFLX', 'price': 75.99, 'change_pct': 0.82}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 17}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AAPL', 'price': 172.18, 'change_pct': 3.05}
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:10 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 18}
-2025-09-07 03:03:11 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 116.37, 'change_pct': 3.81}
-2025-09-07 03:03:11 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'MSFT', 'price': 116.37, 'change_pct': 3.81}
-2025-09-07 03:03:11 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:11 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 19}
-2025-09-07 03:03:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:11.915241', 'temperature': 99.2}
-2025-09-07 03:03:12 | INFO | [Karto Producer] Sent message: {'symbol': 'NVDA', 'price': 236.63, 'change_pct': 2.23}
-2025-09-07 03:03:12 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'NVDA', 'price': 236.63, 'change_pct': 2.23}
-2025-09-07 03:03:12 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:12 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 20}
-2025-09-07 03:03:13 | INFO | [Karto Producer] Sent message: {'symbol': 'TSLA', 'price': 397.4, 'change_pct': 0.53}
-2025-09-07 03:03:13 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'TSLA', 'price': 397.4, 'change_pct': 0.53}
-2025-09-07 03:03:13 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:13 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 21}
-2025-09-07 03:03:14 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 94.37, 'change_pct': 3.77}
-2025-09-07 03:03:14 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'NFLX', 'price': 94.37, 'change_pct': 3.77}
-2025-09-07 03:03:14 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:14 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 22}
-2025-09-07 03:03:15 | INFO | [Karto Producer] Sent message: {'symbol': 'AMZN', 'price': 135.24, 'change_pct': -3.19}
-2025-09-07 03:03:15 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AMZN', 'price': 135.24, 'change_pct': -3.19}
-2025-09-07 03:03:15 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:15 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 23}
-2025-09-07 03:03:16 | INFO | [Karto Producer] Sent message: {'symbol': 'AMZN', 'price': 136.79, 'change_pct': -2.16}
-2025-09-07 03:03:16 | INFO | [Karto JSON Consumer] Processed JSON message: {'symbol': 'AMZN', 'price': 136.79, 'change_pct': -2.16}
-2025-09-07 03:03:16 | INFO | [Karto JSON Consumer] Message received from author: unknown
-2025-09-07 03:03:16 | INFO | [Karto JSON Consumer] Updated author counts: {'unknown': 24}
-2025-09-07 03:03:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:16.916891', 'temperature': 99.6}
-2025-09-07 03:03:17 | WARNING | [Karto JSON Consumer] Consumer interrupted by user.
-2025-09-07 03:03:17 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 143.5, 'change_pct': -1.9}
-2025-09-07 03:03:17 | INFO | [Karto JSON Consumer] Kafka consumer for topic 'buzzline_json' closed.
-2025-09-07 03:03:17 | INFO | [Karto JSON Consumer] END consumer for topic 'buzzline_json' and group 'buzz_group'.
-2025-09-07 03:03:18 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 381.55, 'change_pct': 4.85}
-2025-09-07 03:03:19 | INFO | [Karto Producer] Sent message: {'symbol': 'GOOG', 'price': 366.95, 'change_pct': -3.98}
-2025-09-07 03:03:20 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 311.86, 'change_pct': -0.92}
-2025-09-07 03:03:21 | INFO | [Karto Producer] Sent message: {'symbol': 'AMZN', 'price': 456.04, 'change_pct': 2.94}
-2025-09-07 03:03:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:21.926236', 'temperature': 100.0}
-2025-09-07 03:03:22 | INFO | [Karto Producer] Sent message: {'symbol': 'AAPL', 'price': 192.85, 'change_pct': 2.78}
-2025-09-07 03:03:23 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 307.35, 'change_pct': -0.12}
-2025-09-07 03:03:24 | INFO | [Karto Producer] Sent message: {'symbol': 'META', 'price': 185.59, 'change_pct': -3.94}
-2025-09-07 03:03:25 | INFO | [Karto Producer] Sent message: {'symbol': 'INTC', 'price': 256.65, 'change_pct': 4.27}
-2025-09-07 03:03:26 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 187.46, 'change_pct': 2.8}
-2025-09-07 03:03:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:26.942775', 'temperature': 100.4}
-2025-09-07 03:03:27 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 420.96, 'change_pct': -4.35}
-2025-09-07 03:03:28 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 445.51, 'change_pct': 4.97}
-2025-09-07 03:03:29 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 163.9, 'change_pct': -1.7}
-2025-09-07 03:03:30 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 394.86, 'change_pct': -2.59}
-2025-09-07 03:03:31 | INFO | [Karto Producer] Sent message: {'symbol': 'META', 'price': 373.01, 'change_pct': -3.32}
-2025-09-07 03:03:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:31.949381', 'temperature': 100.8}
-2025-09-07 03:03:32 | INFO | [Karto Producer] Sent message: {'symbol': 'NVDA', 'price': 66.87, 'change_pct': 0.49}
-2025-09-07 03:03:33 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 224.88, 'change_pct': -3.98}
-2025-09-07 03:03:34 | INFO | [Karto Producer] Sent message: {'symbol': 'TSLA', 'price': 490.37, 'change_pct': 1.01}
-2025-09-07 03:03:35 | INFO | [Karto Producer] Sent message: {'symbol': 'TSLA', 'price': 108.92, 'change_pct': -1.49}
-2025-09-07 03:03:36 | INFO | [Karto Producer] Sent message: {'symbol': 'INTC', 'price': 66.7, 'change_pct': 4.83}
-2025-09-07 03:03:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:36.963984', 'temperature': 101.2}
-2025-09-07 03:03:37 | INFO | [Karto Producer] Sent message: {'symbol': 'MSFT', 'price': 274.01, 'change_pct': 2.7}
-2025-09-07 03:03:38 | INFO | [Karto Producer] Sent message: {'symbol': 'META', 'price': 61.24, 'change_pct': -1.74}
-2025-09-07 03:03:39 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 265.27, 'change_pct': 4.51}
-2025-09-07 03:03:40 | INFO | [Karto Producer] Sent message: {'symbol': 'NVDA', 'price': 119.59, 'change_pct': -3.48}
-2025-09-07 03:03:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:33:41.981508', 'temperature': 101.6}
-2025-09-07 03:03:41 | INFO | [Karto Producer] Sent message: {'symbol': 'TSLA', 'price': 258.87, 'change_pct': 4.41}
-2025-09-07 03:03:43 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 93.89, 'change_pct': -1.37}
-2025-09-07 03:03:44 | INFO | [Karto Producer] Sent message: {'symbol': 'NFLX', 'price': 80.73, 'change_pct': -0.81}
-2025-09-07 03:03:45 | INFO | [Karto Producer] Sent message: {'symbol': 'NVDA', 'price': 322.64, 'change_pct': -3.39}
-2025-09-07 03:03:46 | INFO | [Karto Producer] Sent message: {'symbol': 'AMD', 'price': 478.51, 'change_pct': -1.14}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:05:00', 'package_id': 'PKG1085', 'status': 'In Transit'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:10:00', 'package_id': 'PKG1086', 'status': 'In Transit'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:15:00', 'package_id': 'PKG1087', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:20:00', 'package_id': 'PKG1088', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:25:00', 'package_id': 'PKG1089', 'status': 'In Transit'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:30:00', 'package_id': 'PKG1090', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:35:00', 'package_id': 'PKG1091', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:40:00', 'package_id': 'PKG1092', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:45:00', 'package_id': 'PKG1093', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:50:00', 'package_id': 'PKG1094', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 16:55:00', 'package_id': 'PKG1095', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:00:00', 'package_id': 'PKG1096', 'status': 'In Transit'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:05:00', 'package_id': 'PKG1097', 'status': 'Pending'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:10:00', 'package_id': 'PKG1098', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:15:00', 'package_id': 'PKG1099', 'status': 'In Transit'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:20:00', 'package_id': 'PKG1100', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:25:00', 'package_id': 'PKG1101', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:30:00', 'package_id': 'PKG1102', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:35:00', 'package_id': 'PKG1103', 'status': 'In Transit'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:40:00', 'package_id': 'PKG1104', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:45:00', 'package_id': 'PKG1105', 'status': 'Pending'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:50:00', 'package_id': 'PKG1106', 'status': 'Pending'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 17:55:00', 'package_id': 'PKG1107', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:00:00', 'package_id': 'PKG1108', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:05:00', 'package_id': 'PKG1109', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:10:00', 'package_id': 'PKG1110', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:15:00', 'package_id': 'PKG1111', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:20:00', 'package_id': 'PKG1112', 'status': 'In Transit'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:25:00', 'package_id': 'PKG1113', 'status': 'In Transit'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:30:00', 'package_id': 'PKG1114', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:35:00', 'package_id': 'PKG1115', 'status': 'Pending'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:40:00', 'package_id': 'PKG1116', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:45:00', 'package_id': 'PKG1117', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:50:00', 'package_id': 'PKG1118', 'status': 'Pending'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 18:55:00', 'package_id': 'PKG1119', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:00:00', 'package_id': 'PKG1120', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:05:00', 'package_id': 'PKG1121', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:10:00', 'package_id': 'PKG1122', 'status': 'Pending'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:15:00', 'package_id': 'PKG1123', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:20:00', 'package_id': 'PKG1124', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:25:00', 'package_id': 'PKG1125', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:30:00', 'package_id': 'PKG1126', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:35:00', 'package_id': 'PKG1127', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:40:00', 'package_id': 'PKG1128', 'status': 'Pending'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:45:00', 'package_id': 'PKG1129', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:50:00', 'package_id': 'PKG1130', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 19:55:00', 'package_id': 'PKG1131', 'status': 'Cancelled'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:00:00', 'package_id': 'PKG1132', 'status': 'Delivered'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:05:00', 'package_id': 'PKG1133', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:10:00', 'package_id': 'PKG1134', 'status': 'Shipped'}
+2025-09-07 03:07:09 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:15:00', 'package_id': 'PKG1135', 'status': 'Pending'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:20:00', 'package_id': 'PKG1136', 'status': 'Delivered'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:25:00', 'package_id': 'PKG1137', 'status': 'Cancelled'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:30:00', 'package_id': 'PKG1138', 'status': 'In Transit'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:35:00', 'package_id': 'PKG1139', 'status': 'Delivered'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:40:00', 'package_id': 'PKG1140', 'status': 'In Transit'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:45:00', 'package_id': 'PKG1141', 'status': 'Shipped'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:50:00', 'package_id': 'PKG1142', 'status': 'In Transit'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 20:55:00', 'package_id': 'PKG1143', 'status': 'Cancelled'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 21:00:00', 'package_id': 'PKG1144', 'status': 'Cancelled'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 21:05:00', 'package_id': 'PKG1145', 'status': 'Delivered'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 21:10:00', 'package_id': 'PKG1146', 'status': 'Pending'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 21:15:00', 'package_id': 'PKG1147', 'status': 'Pending'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 21:20:00', 'package_id': 'PKG1148', 'status': 'Delivered'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 21:25:00', 'package_id': 'PKG1149', 'status': 'Shipped'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 21:30:00', 'package_id': 'PKG1150', 'status': 'Delivered'}
+2025-09-07 03:07:10 | ERROR | Missing 'temperature' column in row: {'timestamp': '2025-09-07 21:35:00', 'package_id': 'PKG1151', 'status': 'In Transit'}
+2025-09-07 03:07:10 | WARNING | [Karto CSV Producer] Producer interrupted by user.
+2025-09-07 03:07:10 | INFO | [Karto CSV Producer] Kafka producer closed.
+2025-09-07 03:07:10 | INFO | [Karto CSV Producer] END producer.
+2025-09-07 03:08:30 | INFO | Logging to file: logs/project_log.log
+2025-09-07 03:08:30 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Project root: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Data folder: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_delivery_status.csv
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] START producer.
+2025-09-07 03:08:30 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:08:30 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'SqYRc-d-QWaPXKd66k0apQ', 'controller_id': 1}
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Kafka topic: smoker_csv
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Message interval: 5 seconds
+2025-09-07 03:08:30 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:08:30 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-07 03:08:30 | INFO | Kafka producer successfully created.
+2025-09-07 03:08:30 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:08:30 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-07 03:08:30 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-07 03:08:30 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Kafka topic 'smoker_csv' is ready.
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Starting message production to topic 'smoker_csv'...
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Opening data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_delivery_status.csv
+2025-09-07 03:08:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:00:00', 'package_id': 'PKG1000', 'status': 'Cancelled'}
+2025-09-07 03:08:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:05:00', 'package_id': 'PKG1001', 'status': 'In Transit'}
+2025-09-07 03:08:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:10:00', 'package_id': 'PKG1002', 'status': 'Shipped'}
+2025-09-07 03:08:43 | WARNING | [Karto CSV Producer] Producer interrupted by user.
+2025-09-07 03:08:43 | INFO | [Karto CSV Producer] Kafka producer closed.
+2025-09-07 03:08:43 | INFO | [Karto CSV Producer] END producer.
+2025-09-07 03:08:50 | INFO | Logging to file: logs/project_log.log
+2025-09-07 03:08:50 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 03:08:50 | INFO | [Karto CSV Producer] Project root: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto
+2025-09-07 03:08:50 | INFO | [Karto CSV Producer] Data folder: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data
+2025-09-07 03:08:50 | INFO | [Karto CSV Producer] Data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_delivery_status.csv
+2025-09-07 03:08:50 | INFO | [Karto CSV Producer] START producer.
+2025-09-07 03:08:50 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:08:50 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'SqYRc-d-QWaPXKd66k0apQ', 'controller_id': 1}
+2025-09-07 03:08:50 | INFO | [Karto CSV Producer] Kafka topic: smoker_csv
+2025-09-07 03:08:50 | INFO | [Karto CSV Producer] Message interval: 5 seconds
+2025-09-07 03:08:50 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:08:50 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-07 03:08:50 | INFO | Kafka producer successfully created.
+2025-09-07 03:08:50 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:08:51 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-07 03:08:51 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-07 03:08:51 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-07 03:08:51 | INFO | [Karto CSV Producer] Kafka topic 'smoker_csv' is ready.
+2025-09-07 03:08:51 | INFO | [Karto CSV Producer] Starting message production to topic 'smoker_csv'...
+2025-09-07 03:08:51 | INFO | [Karto CSV Producer] Opening data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_delivery_status.csv
+2025-09-07 03:08:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:00:00', 'package_id': 'PKG1000', 'status': 'Cancelled'}
+2025-09-07 03:08:54 | INFO | Logging to file: logs/project_log.log
+2025-09-07 03:08:54 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 03:08:54 | INFO | [Karto CSV Consumer] START consumer.
+2025-09-07 03:08:54 | INFO | [Karto CSV Consumer] Kafka topic: smoker_csv
+2025-09-07 03:08:54 | INFO | [Karto CSV Consumer] Kafka consumer group id: smoker_group
+2025-09-07 03:08:54 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 03:08:54 | INFO | [Karto CSV Consumer] Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-07 03:08:54 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 03:08:54 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:08:54 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-07 03:08:54 | INFO | Kafka consumer created successfully.
+2025-09-07 03:08:54 | INFO | [Karto CSV Consumer] Polling messages from topic 'smoker_csv'...
+2025-09-07 03:08:54 | ERROR | [Karto CSV Consumer] Error while consuming messages: Invalid file descriptor: -1
+2025-09-07 03:08:54 | INFO | [Karto CSV Consumer] Kafka consumer for topic 'smoker_csv' closed.
+2025-09-07 03:08:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:05:00', 'package_id': 'PKG1001', 'status': 'In Transit'}
+2025-09-07 03:08:58 | INFO | Logging to file: logs/project_log.log
+2025-09-07 03:08:58 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 03:08:58 | INFO | [Karto CSV Consumer] START consumer.
+2025-09-07 03:08:58 | INFO | [Karto CSV Consumer] Kafka topic: smoker_csv
+2025-09-07 03:08:58 | INFO | [Karto CSV Consumer] Kafka consumer group id: smoker_group
+2025-09-07 03:08:58 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 03:08:58 | INFO | [Karto CSV Consumer] Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-07 03:08:58 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 03:08:58 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:08:59 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-07 03:08:59 | INFO | Kafka consumer created successfully.
+2025-09-07 03:08:59 | INFO | [Karto CSV Consumer] Polling messages from topic 'smoker_csv'...
+2025-09-07 03:09:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:10:00', 'package_id': 'PKG1002', 'status': 'Shipped'}
+2025-09-07 03:09:02 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:05:00', 'package_id': 'PKG1001', 'status': 'In Transit'}
+2025-09-07 03:09:02 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:05:00", "package_id": "PKG1001", "status": "In Transit"}
+2025-09-07 03:09:02 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:10:00', 'package_id': 'PKG1002', 'status': 'Shipped'}
+2025-09-07 03:09:02 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:10:00", "package_id": "PKG1002", "status": "Shipped"}
+2025-09-07 03:09:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:15:00', 'package_id': 'PKG1003', 'status': 'Pending'}
+2025-09-07 03:09:06 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:15:00', 'package_id': 'PKG1003', 'status': 'Pending'}
+2025-09-07 03:09:06 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:15:00", "package_id": "PKG1003", "status": "Pending"}
+2025-09-07 03:09:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:20:00', 'package_id': 'PKG1004', 'status': 'Delivered'}
+2025-09-07 03:09:11 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:20:00', 'package_id': 'PKG1004', 'status': 'Delivered'}
+2025-09-07 03:09:11 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:20:00", "package_id": "PKG1004", "status": "Delivered"}
+2025-09-07 03:09:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:25:00', 'package_id': 'PKG1005', 'status': 'Delivered'}
+2025-09-07 03:09:16 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:25:00', 'package_id': 'PKG1005', 'status': 'Delivered'}
+2025-09-07 03:09:16 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:25:00", "package_id": "PKG1005", "status": "Delivered"}
+2025-09-07 03:09:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:30:00', 'package_id': 'PKG1006', 'status': 'Pending'}
+2025-09-07 03:09:21 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:30:00', 'package_id': 'PKG1006', 'status': 'Pending'}
+2025-09-07 03:09:21 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:30:00", "package_id": "PKG1006", "status": "Pending"}
+2025-09-07 03:09:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:35:00', 'package_id': 'PKG1007', 'status': 'Cancelled'}
+2025-09-07 03:09:26 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:35:00', 'package_id': 'PKG1007', 'status': 'Cancelled'}
+2025-09-07 03:09:26 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:35:00", "package_id": "PKG1007", "status": "Cancelled"}
+2025-09-07 03:09:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:40:00', 'package_id': 'PKG1008', 'status': 'Pending'}
+2025-09-07 03:09:31 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:40:00', 'package_id': 'PKG1008', 'status': 'Pending'}
+2025-09-07 03:09:31 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:40:00", "package_id": "PKG1008", "status": "Pending"}
+2025-09-07 03:09:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:45:00', 'package_id': 'PKG1009', 'status': 'In Transit'}
+2025-09-07 03:09:36 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:45:00', 'package_id': 'PKG1009', 'status': 'In Transit'}
+2025-09-07 03:09:36 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:45:00", "package_id": "PKG1009", "status": "In Transit"}
+2025-09-07 03:09:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:50:00', 'package_id': 'PKG1010', 'status': 'Pending'}
+2025-09-07 03:09:41 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:50:00', 'package_id': 'PKG1010', 'status': 'Pending'}
+2025-09-07 03:09:41 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:50:00", "package_id": "PKG1010", "status": "Pending"}
+2025-09-07 03:09:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 09:55:00', 'package_id': 'PKG1011', 'status': 'Cancelled'}
+2025-09-07 03:09:46 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 09:55:00', 'package_id': 'PKG1011', 'status': 'Cancelled'}
+2025-09-07 03:09:46 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 09:55:00", "package_id": "PKG1011", "status": "Cancelled"}
+2025-09-07 03:09:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:00:00', 'package_id': 'PKG1012', 'status': 'In Transit'}
+2025-09-07 03:09:51 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-07 10:00:00', 'package_id': 'PKG1012', 'status': 'In Transit'}
+2025-09-07 03:09:51 | ERROR | [Karto CSV Consumer] Invalid message format: {"timestamp": "2025-09-07 10:00:00", "package_id": "PKG1012", "status": "In Transit"}
+2025-09-07 03:09:54 | WARNING | [Karto CSV Consumer] Consumer interrupted by user.
+2025-09-07 03:09:54 | INFO | [Karto CSV Consumer] Kafka consumer for topic 'smoker_csv' closed.
+2025-09-07 03:09:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:05:00', 'package_id': 'PKG1013', 'status': 'Cancelled'}
+2025-09-07 03:10:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:10:00', 'package_id': 'PKG1014', 'status': 'Shipped'}
+2025-09-07 03:10:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:15:00', 'package_id': 'PKG1015', 'status': 'Shipped'}
+2025-09-07 03:10:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:20:00', 'package_id': 'PKG1016', 'status': 'In Transit'}
+2025-09-07 03:10:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:25:00', 'package_id': 'PKG1017', 'status': 'Cancelled'}
+2025-09-07 03:10:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:30:00', 'package_id': 'PKG1018', 'status': 'Shipped'}
+2025-09-07 03:10:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:35:00', 'package_id': 'PKG1019', 'status': 'Shipped'}
+2025-09-07 03:10:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:40:00', 'package_id': 'PKG1020', 'status': 'Cancelled'}
+2025-09-07 03:10:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:45:00', 'package_id': 'PKG1021', 'status': 'Cancelled'}
+2025-09-07 03:10:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:50:00', 'package_id': 'PKG1022', 'status': 'Shipped'}
+2025-09-07 03:10:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 10:55:00', 'package_id': 'PKG1023', 'status': 'Cancelled'}
+2025-09-07 03:10:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:00:00', 'package_id': 'PKG1024', 'status': 'Pending'}
+2025-09-07 03:10:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:05:00', 'package_id': 'PKG1025', 'status': 'Pending'}
+2025-09-07 03:11:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:10:00', 'package_id': 'PKG1026', 'status': 'Pending'}
+2025-09-07 03:11:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:15:00', 'package_id': 'PKG1027', 'status': 'Pending'}
+2025-09-07 03:11:11 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:20:00', 'package_id': 'PKG1028', 'status': 'Pending'}
+2025-09-07 03:11:16 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:25:00', 'package_id': 'PKG1029', 'status': 'Cancelled'}
+2025-09-07 03:11:21 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:30:00', 'package_id': 'PKG1030', 'status': 'Shipped'}
+2025-09-07 03:11:26 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:35:00', 'package_id': 'PKG1031', 'status': 'Delivered'}
+2025-09-07 03:11:31 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:40:00', 'package_id': 'PKG1032', 'status': 'Delivered'}
+2025-09-07 03:11:36 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:45:00', 'package_id': 'PKG1033', 'status': 'Shipped'}
+2025-09-07 03:11:41 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:50:00', 'package_id': 'PKG1034', 'status': 'Pending'}
+2025-09-07 03:11:46 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 11:55:00', 'package_id': 'PKG1035', 'status': 'Delivered'}
+2025-09-07 03:11:51 | INFO | Logging to file: logs/project_log.log
+2025-09-07 03:11:51 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 03:11:51 | INFO | [Karto CSV Consumer] START consumer.
+2025-09-07 03:11:51 | INFO | [Karto CSV Consumer] Kafka topic: delivery_status
+2025-09-07 03:11:51 | INFO | [Karto CSV Consumer] Kafka consumer group id: smoker_group
+2025-09-07 03:11:51 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:11:51 | INFO | Creating Kafka consumer. Topic='delivery_status' and group ID='smoker_group'.
+2025-09-07 03:11:51 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 12:00:00', 'package_id': 'PKG1036', 'status': 'In Transit'}
+2025-09-07 03:11:51 | INFO | Kafka consumer created successfully.
+2025-09-07 03:11:51 | INFO | [Karto CSV Consumer] Polling messages from topic 'delivery_status'...
+2025-09-07 03:11:51 | ERROR | [Karto CSV Consumer] Error while consuming messages: Invalid file descriptor: -1
+2025-09-07 03:11:51 | INFO | [Karto CSV Consumer] Kafka consumer for topic 'delivery_status' closed.
+2025-09-07 03:11:55 | INFO | Logging to file: logs/project_log.log
+2025-09-07 03:11:55 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 03:11:55 | INFO | [Karto CSV Consumer] START consumer.
+2025-09-07 03:11:55 | INFO | [Karto CSV Consumer] Kafka topic: delivery_status
+2025-09-07 03:11:55 | INFO | [Karto CSV Consumer] Kafka consumer group id: smoker_group
+2025-09-07 03:11:55 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:11:55 | INFO | Creating Kafka consumer. Topic='delivery_status' and group ID='smoker_group'.
+2025-09-07 03:11:55 | INFO | Kafka consumer created successfully.
+2025-09-07 03:11:55 | INFO | [Karto CSV Consumer] Polling messages from topic 'delivery_status'...
+2025-09-07 03:11:55 | ERROR | [Karto CSV Consumer] Error while consuming messages: Invalid file descriptor: -1
+2025-09-07 03:11:55 | INFO | [Karto CSV Consumer] Kafka consumer for topic 'delivery_status' closed.
+2025-09-07 03:11:56 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 12:05:00', 'package_id': 'PKG1037', 'status': 'Pending'}
+2025-09-07 03:11:56 | INFO | Logging to file: logs/project_log.log
+2025-09-07 03:11:56 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 03:11:56 | INFO | [Karto CSV Consumer] START consumer.
+2025-09-07 03:11:56 | INFO | [Karto CSV Consumer] Kafka topic: delivery_status
+2025-09-07 03:11:56 | INFO | [Karto CSV Consumer] Kafka consumer group id: smoker_group
+2025-09-07 03:11:56 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:11:56 | INFO | Creating Kafka consumer. Topic='delivery_status' and group ID='smoker_group'.
+2025-09-07 03:11:57 | INFO | Kafka consumer created successfully.
+2025-09-07 03:11:57 | INFO | [Karto CSV Consumer] Polling messages from topic 'delivery_status'...
+2025-09-07 03:12:01 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 12:10:00', 'package_id': 'PKG1038', 'status': 'In Transit'}
+2025-09-07 03:12:06 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-07 12:15:00', 'package_id': 'PKG1039', 'status': 'Pending'}
+2025-09-07 03:12:09 | WARNING | [Karto CSV Producer] Producer interrupted by user.
+2025-09-07 03:12:09 | INFO | [Karto CSV Producer] Kafka producer closed.
+2025-09-07 03:12:09 | INFO | [Karto CSV Producer] END producer.
+2025-09-07 03:12:11 | INFO | Logging to file: logs/project_log.log
+2025-09-07 03:12:11 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 03:12:11 | INFO | [Karto CSV Producer] Project root: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto
+2025-09-07 03:12:11 | INFO | [Karto CSV Producer] Data folder: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data
+2025-09-07 03:12:11 | INFO | [Karto CSV Producer] Data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_delivery_status.csv
+2025-09-07 03:12:11 | INFO | [Karto CSV Producer] START producer.
+2025-09-07 03:12:11 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:12:12 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'SqYRc-d-QWaPXKd66k0apQ', 'controller_id': 1}
+2025-09-07 03:12:12 | INFO | [Karto CSV Producer] Kafka topic: delivery_status
+2025-09-07 03:12:12 | INFO | [Karto CSV Producer] Message interval: 5 seconds
+2025-09-07 03:12:12 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:12:12 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-07 03:12:12 | INFO | Kafka producer successfully created.
+2025-09-07 03:12:12 | INFO | Kafka broker address: localhost:9092
+2025-09-07 03:12:12 | INFO | Topic 'delivery_status' already exists. Recreating fresh...
+2025-09-07 03:12:12 | INFO | Requested deletion of topic 'delivery_status'.
+2025-09-07 03:12:12 | INFO | Topic 'delivery_status' created successfully.
+2025-09-07 03:12:12 | INFO | [Karto CSV Producer] Kafka topic 'delivery_status' is ready.
+2025-09-07 03:12:12 | INFO | [Karto CSV Producer] Starting message production to topic 'delivery_status'...
+2025-09-07 03:12:12 | INFO | [Karto CSV Producer] Opening data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/custom_delivery_status.csv
+2025-09-07 03:12:12 | INFO | [Karto CSV Producer] Sent message to topic 'delivery_status': {'timestamp': '2025-09-07 09:00:00', 'package_id': 'PKG1000', 'status': 'Cancelled'}
+2025-09-07 03:12:17 | INFO | [Karto CSV Producer] Sent message to topic 'delivery_status': {'timestamp': '2025-09-07 09:05:00', 'package_id': 'PKG1001', 'status': 'In Transit'}
+2025-09-07 03:12:17 | INFO | [Karto CSV Consumer] Package 'PKG1001' at '2025-09-07 09:05:00' has status: In Transit
+2025-09-07 03:12:20 | WARNING | [Karto CSV Consumer] Consumer interrupted by user.
+2025-09-07 03:12:20 | INFO | [Karto CSV Consumer] Kafka consumer for topic 'delivery_status' closed.
+2025-09-07 03:12:21 | WARNING | [Karto CSV Producer] Producer interrupted by user.
+2025-09-07 03:12:21 | INFO | [Karto CSV Producer] Kafka producer closed.
+2025-09-07 03:12:21 | INFO | [Karto CSV Producer] END producer.

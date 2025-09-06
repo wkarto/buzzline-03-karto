@@ -56,7 +56,7 @@ logger.info(f"[Karto CSV Producer] Project root: {PROJECT_ROOT}")
 DATA_FOLDER = PROJECT_ROOT.joinpath("data")
 logger.info(f"[Karto CSV Producer] Data folder: {DATA_FOLDER}")
 
-DATA_FILE = DATA_FOLDER.joinpath("smoker_temps.csv")
+DATA_FILE = DATA_FOLDER.joinpath("custom_delivery_status.csv")
 logger.info(f"[Karto CSV Producer] Data file: {DATA_FILE}")
 
 #####################################
@@ -64,20 +64,25 @@ logger.info(f"[Karto CSV Producer] Data file: {DATA_FILE}")
 #####################################
 
 def generate_messages(file_path: pathlib.Path):
+    """
+    Reads CSV file and yields each row as a message for Kafka.
+    Expects columns: timestamp, package_id, status
+    """
     while True:
         try:
-            logger.info(f"[Karto CSV Producer] Opening data file: {DATA_FILE}")
-            with open(DATA_FILE, "r") as csv_file:
-                logger.info(f"[Karto CSV Producer] Reading data from file: {DATA_FILE}")
+            logger.info(f"[Karto CSV Producer] Opening data file: {file_path}")
+            with open(file_path, "r") as csv_file:
                 csv_reader = csv.DictReader(csv_file)
                 for row in csv_reader:
-                    if "temperature" not in row:
-                        logger.error(f"Missing 'temperature' column in row: {row}")
+                    # Validate required columns
+                    if not all(col in row for col in ["timestamp", "package_id", "status"]):
+                        logger.error(f"Missing required column in row: {row}")
                         continue
-                    current_timestamp = datetime.utcnow().isoformat()
+
                     message = {
-                        "timestamp": current_timestamp,
-                        "temperature": float(row["temperature"]),
+                        "timestamp": row["timestamp"],
+                        "package_id": row["package_id"],
+                        "status": row["status"]
                     }
                     logger.debug(f"[Karto CSV Producer] Generated message: {message}")
                     yield message
