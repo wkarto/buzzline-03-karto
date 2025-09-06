@@ -1,0 +1,376 @@
+2025-09-07 02:35:01 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-07 02:35:01 | INFO | [Karto JSON Consumer] Message received from author: Eve
+2025-09-07 02:35:01 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 9, 'Diana': 21, 'Eve': 9, 'Bob': 14}
+2025-09-07 02:35:01 | INFO | [Karto Producer] Sent message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-07 02:35:02 | INFO | [Karto Producer] Sent message: {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-07 02:35:02 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-07 02:35:02 | INFO | [Karto JSON Consumer] Message received from author: Charlie
+2025-09-07 02:35:02 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 10, 'Diana': 21, 'Eve': 9, 'Bob': 14}
+2025-09-07 02:35:03 | INFO | [Karto Producer] Sent message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-07 02:35:03 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-07 02:35:03 | INFO | [Karto JSON Consumer] Message received from author: Charlie
+2025-09-07 02:35:03 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 11, 'Diana': 21, 'Eve': 9, 'Bob': 14}
+2025-09-07 02:35:04 | INFO | [Karto Producer] Sent message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-07 02:35:04 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-07 02:35:04 | INFO | [Karto JSON Consumer] Message received from author: Charlie
+2025-09-07 02:35:04 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 12, 'Diana': 21, 'Eve': 9, 'Bob': 14}
+2025-09-07 02:35:05 | INFO | [Karto Producer] Sent message: {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-07 02:35:05 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-07 02:35:05 | INFO | [Karto JSON Consumer] Message received from author: Diana
+2025-09-07 02:35:05 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 12, 'Diana': 22, 'Eve': 9, 'Bob': 14}
+2025-09-07 02:35:06 | INFO | [Karto Producer] Sent message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-07 02:35:06 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-07 02:35:06 | INFO | [Karto JSON Consumer] Message received from author: Diana
+2025-09-07 02:35:06 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 12, 'Diana': 23, 'Eve': 9, 'Bob': 14}
+2025-09-07 02:35:07 | INFO | [Karto Producer] Sent message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-07 02:35:07 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-07 02:35:07 | INFO | [Karto JSON Consumer] Message received from author: Eve
+2025-09-07 02:35:07 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 12, 'Diana': 23, 'Eve': 10, 'Bob': 14}
+2025-09-07 02:35:08 | INFO | [Karto Producer] Sent message: {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-09-07 02:35:08 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-09-07 02:35:08 | INFO | [Karto JSON Consumer] Message received from author: Eve
+2025-09-07 02:35:08 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 12, 'Diana': 23, 'Eve': 11, 'Bob': 14}
+2025-09-07 02:35:09 | INFO | [Karto Producer] Sent message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-07 02:35:09 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-07 02:35:09 | INFO | [Karto JSON Consumer] Message received from author: Eve
+2025-09-07 02:35:09 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 20, 'Charlie': 12, 'Diana': 23, 'Eve': 12, 'Bob': 14}
+2025-09-07 02:35:10 | INFO | [Karto Producer] Sent message: {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-07 02:35:10 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Have a great day!', 'author': 'Alice'}
+2025-09-07 02:35:10 | INFO | [Karto JSON Consumer] Message received from author: Alice
+2025-09-07 02:35:10 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 21, 'Charlie': 12, 'Diana': 23, 'Eve': 12, 'Bob': 14}
+2025-09-07 02:35:11 | INFO | [Karto Producer] Sent message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-07 02:35:11 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-07 02:35:11 | INFO | [Karto JSON Consumer] Message received from author: Bob
+2025-09-07 02:35:11 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 21, 'Charlie': 12, 'Diana': 23, 'Eve': 12, 'Bob': 15}
+2025-09-07 02:35:12 | INFO | [Karto Producer] Sent message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-07 02:35:12 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'I love Python!', 'author': 'Bob'}
+2025-09-07 02:35:12 | INFO | [Karto JSON Consumer] Message received from author: Bob
+2025-09-07 02:35:12 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 21, 'Charlie': 12, 'Diana': 23, 'Eve': 12, 'Bob': 16}
+2025-09-07 02:35:13 | INFO | [Karto Producer] Sent message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-07 02:35:13 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-07 02:35:13 | INFO | [Karto JSON Consumer] Message received from author: Eve
+2025-09-07 02:35:13 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 21, 'Charlie': 12, 'Diana': 23, 'Eve': 13, 'Bob': 16}
+2025-09-07 02:35:14 | INFO | [Karto Producer] Sent message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-07 02:35:14 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Alice'}
+2025-09-07 02:35:14 | INFO | [Karto JSON Consumer] Message received from author: Alice
+2025-09-07 02:35:14 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 12, 'Diana': 23, 'Eve': 13, 'Bob': 16}
+2025-09-07 02:35:15 | INFO | [Karto Producer] Sent message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-07 02:35:15 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Diana'}
+2025-09-07 02:35:15 | INFO | [Karto JSON Consumer] Message received from author: Diana
+2025-09-07 02:35:15 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 12, 'Diana': 24, 'Eve': 13, 'Bob': 16}
+2025-09-07 02:35:16 | INFO | [Karto Producer] Sent message: {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-07 02:35:16 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Eve'}
+2025-09-07 02:35:16 | INFO | [Karto JSON Consumer] Message received from author: Eve
+2025-09-07 02:35:16 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 12, 'Diana': 24, 'Eve': 14, 'Bob': 16}
+2025-09-07 02:35:17 | INFO | [Karto Producer] Sent message: {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-07 02:35:17 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-07 02:35:17 | INFO | [Karto JSON Consumer] Message received from author: Charlie
+2025-09-07 02:35:17 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 13, 'Diana': 24, 'Eve': 14, 'Bob': 16}
+2025-09-07 02:35:18 | INFO | [Karto Producer] Sent message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-07 02:35:18 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Eve'}
+2025-09-07 02:35:18 | INFO | [Karto JSON Consumer] Message received from author: Eve
+2025-09-07 02:35:18 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 13, 'Diana': 24, 'Eve': 15, 'Bob': 16}
+2025-09-07 02:35:19 | INFO | [Karto Producer] Sent message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-07 02:35:19 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-07 02:35:19 | INFO | [Karto JSON Consumer] Message received from author: Diana
+2025-09-07 02:35:19 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 13, 'Diana': 25, 'Eve': 15, 'Bob': 16}
+2025-09-07 02:35:20 | INFO | [Karto Producer] Sent message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-07 02:35:20 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-07 02:35:20 | INFO | [Karto JSON Consumer] Message received from author: Charlie
+2025-09-07 02:35:20 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 14, 'Diana': 25, 'Eve': 15, 'Bob': 16}
+2025-09-07 02:35:21 | INFO | [Karto Producer] Sent message: {'message': 'Distributed systems are fascinating.', 'author': 'Charlie'}
+2025-09-07 02:35:21 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Distributed systems are fascinating.', 'author': 'Charlie'}
+2025-09-07 02:35:21 | INFO | [Karto JSON Consumer] Message received from author: Charlie
+2025-09-07 02:35:21 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 15, 'Diana': 25, 'Eve': 15, 'Bob': 16}
+2025-09-07 02:35:22 | INFO | [Karto Producer] Sent message: {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-07 02:35:22 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Bob'}
+2025-09-07 02:35:22 | INFO | [Karto JSON Consumer] Message received from author: Bob
+2025-09-07 02:35:22 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 15, 'Diana': 25, 'Eve': 15, 'Bob': 17}
+2025-09-07 02:35:23 | INFO | [Karto Producer] Sent message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-07 02:35:23 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Eve'}
+2025-09-07 02:35:23 | INFO | [Karto JSON Consumer] Message received from author: Eve
+2025-09-07 02:35:23 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 15, 'Diana': 25, 'Eve': 16, 'Bob': 17}
+2025-09-07 02:35:24 | INFO | [Karto Producer] Sent message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-07 02:35:24 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Diana'}
+2025-09-07 02:35:24 | INFO | [Karto JSON Consumer] Message received from author: Diana
+2025-09-07 02:35:24 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 22, 'Charlie': 15, 'Diana': 26, 'Eve': 16, 'Bob': 17}
+2025-09-07 02:35:25 | INFO | [Karto Producer] Sent message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-07 02:35:25 | INFO | [Karto JSON Consumer] Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-07 02:35:25 | INFO | [Karto JSON Consumer] Message received from author: Alice
+2025-09-07 02:35:25 | INFO | [Karto JSON Consumer] Updated author counts: {'Alice': 23, 'Charlie': 15, 'Diana': 26, 'Eve': 16, 'Bob': 17}
+2025-09-07 02:35:26 | WARNING | [Karto JSON Consumer] Consumer interrupted by user.
+2025-09-07 02:35:26 | INFO | [Karto Producer] Sent message: {'message': 'Buzz messages for everyone.', 'author': 'Diana'}
+2025-09-07 02:35:26 | INFO | [Karto JSON Consumer] Kafka consumer for topic 'buzzline_json' closed.
+2025-09-07 02:35:26 | INFO | [Karto JSON Consumer] END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-09-07 02:35:27 | INFO | [Karto Producer] Sent message: {'message': 'JSON makes life easier.', 'author': 'Alice'}
+2025-09-07 02:35:28 | INFO | [Karto Producer] Opening file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/buzz.json
+2025-09-07 02:35:28 | INFO | [Karto Producer] Sent message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-07 02:35:29 | INFO | [Karto Producer] Sent message: {'message': 'Distributed systems are fascinating.', 'author': 'Alice'}
+2025-09-07 02:35:30 | INFO | [Karto Producer] Sent message: {'message': 'Have a great day!', 'author': 'Charlie'}
+2025-09-07 02:35:31 | INFO | [Karto Producer] Sent message: {'message': 'Data engineering is my passion.', 'author': 'Alice'}
+2025-09-07 02:35:32 | WARNING | [Karto Producer] Interrupted by user.
+2025-09-07 02:35:32 | INFO | [Karto Producer] Kafka producer closed.
+2025-09-07 02:35:32 | INFO | [Karto Producer] END producer.
+2025-09-07 02:37:07 | INFO | Logging to file: logs/project_log.log
+2025-09-07 02:37:07 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 02:37:07 | INFO | [Karto CSV Producer] Project root: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto
+2025-09-07 02:37:07 | INFO | [Karto CSV Producer] Data folder: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data
+2025-09-07 02:37:07 | INFO | [Karto CSV Producer] Data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/smoker_temps.csv
+2025-09-07 02:37:07 | INFO | [Karto CSV Producer] START producer.
+2025-09-07 02:37:07 | INFO | Kafka broker address: localhost:9092
+2025-09-07 02:37:08 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'SqYRc-d-QWaPXKd66k0apQ', 'controller_id': 1}
+2025-09-07 02:37:08 | INFO | [Karto CSV Producer] Kafka topic: smoker_csv
+2025-09-07 02:37:08 | INFO | [Karto CSV Producer] Message interval: 5 seconds
+2025-09-07 02:37:08 | INFO | Kafka broker address: localhost:9092
+2025-09-07 02:37:08 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-07 02:37:08 | INFO | Kafka producer successfully created.
+2025-09-07 02:37:08 | INFO | Kafka broker address: localhost:9092
+2025-09-07 02:37:08 | INFO | Topic 'smoker_csv' already exists. Recreating fresh...
+2025-09-07 02:37:08 | INFO | Requested deletion of topic 'smoker_csv'.
+2025-09-07 02:37:08 | INFO | Topic 'smoker_csv' created successfully.
+2025-09-07 02:37:08 | INFO | [Karto CSV Producer] Kafka topic 'smoker_csv' is ready.
+2025-09-07 02:37:08 | INFO | [Karto CSV Producer] Starting message production to topic 'smoker_csv'...
+2025-09-07 02:37:08 | INFO | [Karto CSV Producer] Opening data file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/smoker_temps.csv
+2025-09-07 02:37:08 | INFO | [Karto CSV Producer] Reading data from file: C:/Users/USER/Downloads/44-671 Streaming Data/Week-3/buzzline-03-karto/data/smoker_temps.csv
+2025-09-07 02:37:08 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:08.848146', 'temperature': 70.4}
+2025-09-07 02:37:13 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:13.853476', 'temperature': 70.8}
+2025-09-07 02:37:16 | INFO | Logging to file: logs/project_log.log
+2025-09-07 02:37:16 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 02:37:16 | INFO | [Karto CSV Consumer] START consumer.
+2025-09-07 02:37:16 | INFO | [Karto CSV Consumer] Kafka topic: smoker_csv
+2025-09-07 02:37:16 | INFO | [Karto CSV Consumer] Kafka consumer group id: smoker_group
+2025-09-07 02:37:16 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:16 | INFO | [Karto CSV Consumer] Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-07 02:37:16 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:16 | INFO | Kafka broker address: localhost:9092
+2025-09-07 02:37:16 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-07 02:37:16 | INFO | Kafka consumer created successfully.
+2025-09-07 02:37:16 | INFO | [Karto CSV Consumer] Polling messages from topic 'smoker_csv'...
+2025-09-07 02:37:16 | ERROR | [Karto CSV Consumer] Error while consuming messages: Invalid file descriptor: -1
+2025-09-07 02:37:16 | INFO | [Karto CSV Consumer] Kafka consumer for topic 'smoker_csv' closed.
+2025-09-07 02:37:18 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:18.862791', 'temperature': 71.2}
+2025-09-07 02:37:23 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:23.875180', 'temperature': 71.6}
+2025-09-07 02:37:27 | INFO | Logging to file: logs/project_log.log
+2025-09-07 02:37:27 | INFO | Log sanitization enabled, personal info removed
+2025-09-07 02:37:27 | INFO | [Karto CSV Consumer] START consumer.
+2025-09-07 02:37:27 | INFO | [Karto CSV Consumer] Kafka topic: smoker_csv
+2025-09-07 02:37:27 | INFO | [Karto CSV Consumer] Kafka consumer group id: smoker_group
+2025-09-07 02:37:27 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:27 | INFO | [Karto CSV Consumer] Consumer: Topic 'smoker_csv' and group 'smoker_group'...
+2025-09-07 02:37:27 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:27 | INFO | Kafka broker address: localhost:9092
+2025-09-07 02:37:27 | INFO | Creating Kafka consumer. Topic='smoker_csv' and group ID='smoker_group'.
+2025-09-07 02:37:27 | INFO | Kafka consumer created successfully.
+2025-09-07 02:37:27 | INFO | [Karto CSV Consumer] Polling messages from topic 'smoker_csv'...
+2025-09-07 02:37:28 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:28.886308', 'temperature': 72.0}
+2025-09-07 02:37:31 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-06T21:07:13.853476', 'temperature': 70.8}
+2025-09-07 02:37:31 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:31 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-06T21:07:18.862791', 'temperature': 71.2}
+2025-09-07 02:37:31 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:31 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-06T21:07:23.875180', 'temperature': 71.6}
+2025-09-07 02:37:31 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:31 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-06T21:07:28.886308', 'temperature': 72.0}
+2025-09-07 02:37:31 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:33 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:33.901877', 'temperature': 72.4}
+2025-09-07 02:37:33 | INFO | [Karto CSV Consumer] Processed JSON message: {'timestamp': '2025-09-06T21:07:33.901877', 'temperature': 72.4}
+2025-09-07 02:37:33 | INFO | [Karto CSV Consumer] Rolling window size: 10
+2025-09-07 02:37:38 | WARNING | [Karto CSV Consumer] Consumer interrupted by user.
+2025-09-07 02:37:38 | INFO | [Karto CSV Consumer] Kafka consumer for topic 'smoker_csv' closed.
+2025-09-07 02:37:38 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:38.908527', 'temperature': 72.8}
+2025-09-07 02:37:43 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:43.914289', 'temperature': 73.2}
+2025-09-07 02:37:48 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:48.930172', 'temperature': 73.6}
+2025-09-07 02:37:53 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:53.938076', 'temperature': 74.0}
+2025-09-07 02:37:58 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:07:58.952264', 'temperature': 74.4}
+2025-09-07 02:38:03 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:03.956284', 'temperature': 74.8}
+2025-09-07 02:38:08 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:08.973218', 'temperature': 75.2}
+2025-09-07 02:38:13 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:13.983891', 'temperature': 75.6}
+2025-09-07 02:38:18 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:18.990893', 'temperature': 76.0}
+2025-09-07 02:38:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:24.005958', 'temperature': 76.4}
+2025-09-07 02:38:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:29.008422', 'temperature': 76.8}
+2025-09-07 02:38:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:34.016614', 'temperature': 77.2}
+2025-09-07 02:38:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:39.021322', 'temperature': 77.6}
+2025-09-07 02:38:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:44.035091', 'temperature': 78.0}
+2025-09-07 02:38:49 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:49.050787', 'temperature': 78.4}
+2025-09-07 02:38:54 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:54.056868', 'temperature': 78.8}
+2025-09-07 02:38:59 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:08:59.062473', 'temperature': 79.2}
+2025-09-07 02:39:04 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:04.080199', 'temperature': 79.6}
+2025-09-07 02:39:09 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:09.097028', 'temperature': 80.0}
+2025-09-07 02:39:14 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:14.108008', 'temperature': 80.4}
+2025-09-07 02:39:19 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:19.120005', 'temperature': 80.8}
+2025-09-07 02:39:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:24.131818', 'temperature': 81.2}
+2025-09-07 02:39:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:29.140129', 'temperature': 81.6}
+2025-09-07 02:39:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:34.151055', 'temperature': 82.0}
+2025-09-07 02:39:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:39.161276', 'temperature': 82.4}
+2025-09-07 02:39:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:44.170942', 'temperature': 82.8}
+2025-09-07 02:39:49 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:49.176839', 'temperature': 83.2}
+2025-09-07 02:39:54 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:54.192794', 'temperature': 83.6}
+2025-09-07 02:39:59 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:09:59.201798', 'temperature': 84.0}
+2025-09-07 02:40:04 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:04.205412', 'temperature': 84.4}
+2025-09-07 02:40:09 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:09.208024', 'temperature': 84.8}
+2025-09-07 02:40:14 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:14.224448', 'temperature': 85.2}
+2025-09-07 02:40:19 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:19.237884', 'temperature': 85.6}
+2025-09-07 02:40:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:24.241857', 'temperature': 86.0}
+2025-09-07 02:40:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:29.254494', 'temperature': 86.4}
+2025-09-07 02:40:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:34.264616', 'temperature': 86.8}
+2025-09-07 02:40:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:39.275162', 'temperature': 87.2}
+2025-09-07 02:40:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:44.280999', 'temperature': 87.6}
+2025-09-07 02:40:49 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:49.285586', 'temperature': 88.0}
+2025-09-07 02:40:54 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:54.301125', 'temperature': 88.4}
+2025-09-07 02:40:59 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:10:59.310437', 'temperature': 88.8}
+2025-09-07 02:41:04 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:04.313260', 'temperature': 89.2}
+2025-09-07 02:41:09 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:09.326414', 'temperature': 89.6}
+2025-09-07 02:41:14 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:14.333308', 'temperature': 90.0}
+2025-09-07 02:41:19 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:19.347993', 'temperature': 90.4}
+2025-09-07 02:41:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:24.350633', 'temperature': 90.8}
+2025-09-07 02:41:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:29.355764', 'temperature': 91.2}
+2025-09-07 02:41:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:34.370476', 'temperature': 91.6}
+2025-09-07 02:41:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:39.384836', 'temperature': 92.0}
+2025-09-07 02:41:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:44.404431', 'temperature': 92.4}
+2025-09-07 02:41:49 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:49.415111', 'temperature': 92.8}
+2025-09-07 02:41:54 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:54.429227', 'temperature': 93.2}
+2025-09-07 02:41:59 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:11:59.433216', 'temperature': 93.6}
+2025-09-07 02:42:04 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:04.438787', 'temperature': 94.0}
+2025-09-07 02:42:09 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:09.453791', 'temperature': 94.4}
+2025-09-07 02:42:14 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:14.467616', 'temperature': 94.8}
+2025-09-07 02:42:19 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:19.470513', 'temperature': 95.2}
+2025-09-07 02:42:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:24.477046', 'temperature': 95.6}
+2025-09-07 02:42:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:29.480052', 'temperature': 96.0}
+2025-09-07 02:42:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:34.485469', 'temperature': 96.4}
+2025-09-07 02:42:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:39.496562', 'temperature': 96.8}
+2025-09-07 02:42:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:44.505843', 'temperature': 97.2}
+2025-09-07 02:42:49 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:49.510862', 'temperature': 97.6}
+2025-09-07 02:42:54 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:54.521762', 'temperature': 98.0}
+2025-09-07 02:42:59 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:12:59.532167', 'temperature': 98.4}
+2025-09-07 02:43:04 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:04.541522', 'temperature': 98.8}
+2025-09-07 02:43:09 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:09.553536', 'temperature': 99.2}
+2025-09-07 02:43:14 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:14.568353', 'temperature': 99.6}
+2025-09-07 02:43:19 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:19.572294', 'temperature': 100.0}
+2025-09-07 02:43:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:24.576115', 'temperature': 100.4}
+2025-09-07 02:43:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:29.587115', 'temperature': 100.8}
+2025-09-07 02:43:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:34.589117', 'temperature': 101.2}
+2025-09-07 02:43:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:39.592115', 'temperature': 101.6}
+2025-09-07 02:43:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:44.601116', 'temperature': 102.0}
+2025-09-07 02:43:49 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:49.609297', 'temperature': 102.4}
+2025-09-07 02:43:54 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:54.621051', 'temperature': 102.8}
+2025-09-07 02:43:59 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:13:59.623861', 'temperature': 103.2}
+2025-09-07 02:44:04 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:04.658708', 'temperature': 103.6}
+2025-09-07 02:44:09 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:09.666941', 'temperature': 104.0}
+2025-09-07 02:44:14 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:14.680953', 'temperature': 104.4}
+2025-09-07 02:44:19 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:19.692139', 'temperature': 104.8}
+2025-09-07 02:44:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:24.706825', 'temperature': 105.2}
+2025-09-07 02:44:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:29.708948', 'temperature': 105.6}
+2025-09-07 02:44:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:34.719315', 'temperature': 106.0}
+2025-09-07 02:44:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:39.734833', 'temperature': 106.4}
+2025-09-07 02:44:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:44.740019', 'temperature': 106.8}
+2025-09-07 02:44:49 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:49.745199', 'temperature': 107.2}
+2025-09-07 02:44:54 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:54.761504', 'temperature': 107.6}
+2025-09-07 02:44:59 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:14:59.768377', 'temperature': 108.0}
+2025-09-07 02:45:04 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:04.772368', 'temperature': 108.4}
+2025-09-07 02:45:09 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:09.789371', 'temperature': 108.8}
+2025-09-07 02:45:14 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:14.802378', 'temperature': 109.2}
+2025-09-07 02:45:19 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:19.813328', 'temperature': 109.6}
+2025-09-07 02:45:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:24.827474', 'temperature': 110.0}
+2025-09-07 02:45:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:29.838363', 'temperature': 110.4}
+2025-09-07 02:45:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:34.844231', 'temperature': 110.8}
+2025-09-07 02:45:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:39.857693', 'temperature': 111.2}
+2025-09-07 02:45:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:44.867075', 'temperature': 111.6}
+2025-09-07 02:45:49 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:49.875622', 'temperature': 112.0}
+2025-09-07 02:45:54 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:54.887622', 'temperature': 112.4}
+2025-09-07 02:45:59 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:15:59.899622', 'temperature': 112.8}
+2025-09-07 02:46:04 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:04.915653', 'temperature': 113.2}
+2025-09-07 02:46:09 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:09.923893', 'temperature': 113.6}
+2025-09-07 02:46:14 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:14.940897', 'temperature': 114.0}
+2025-09-07 02:46:19 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:19.944899', 'temperature': 114.4}
+2025-09-07 02:46:24 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:24.953269', 'temperature': 114.8}
+2025-09-07 02:46:29 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:29.970571', 'temperature': 115.2}
+2025-09-07 02:46:34 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:34.980551', 'temperature': 115.6}
+2025-09-07 02:46:39 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:39.986084', 'temperature': 116.0}
+2025-09-07 02:46:44 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:44.996802', 'temperature': 116.4}
+2025-09-07 02:46:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:50.001801', 'temperature': 116.8}
+2025-09-07 02:46:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:16:55.013773', 'temperature': 117.2}
+2025-09-07 02:47:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:00.016984', 'temperature': 117.6}
+2025-09-07 02:47:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:05.028426', 'temperature': 118.0}
+2025-09-07 02:47:10 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:10.043224', 'temperature': 118.4}
+2025-09-07 02:47:15 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:15.058342', 'temperature': 118.8}
+2025-09-07 02:47:20 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:20.065724', 'temperature': 119.2}
+2025-09-07 02:47:25 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:25.076989', 'temperature': 119.6}
+2025-09-07 02:47:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:30.081409', 'temperature': 120.0}
+2025-09-07 02:47:35 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:35.087352', 'temperature': 120.4}
+2025-09-07 02:47:40 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:40.091614', 'temperature': 120.8}
+2025-09-07 02:47:45 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:45.106472', 'temperature': 121.2}
+2025-09-07 02:47:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:50.117739', 'temperature': 121.6}
+2025-09-07 02:47:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:17:55.128741', 'temperature': 122.0}
+2025-09-07 02:48:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:00.132591', 'temperature': 122.4}
+2025-09-07 02:48:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:05.140857', 'temperature': 122.8}
+2025-09-07 02:48:10 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:10.144359', 'temperature': 123.2}
+2025-09-07 02:48:15 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:15.160162', 'temperature': 123.6}
+2025-09-07 02:48:20 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:20.174480', 'temperature': 124.0}
+2025-09-07 02:48:25 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:25.182744', 'temperature': 124.4}
+2025-09-07 02:48:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:30.193797', 'temperature': 124.8}
+2025-09-07 02:48:35 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:35.204164', 'temperature': 125.2}
+2025-09-07 02:48:40 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:40.209892', 'temperature': 125.6}
+2025-09-07 02:48:45 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:45.218363', 'temperature': 126.0}
+2025-09-07 02:48:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:50.219583', 'temperature': 126.4}
+2025-09-07 02:48:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:18:55.227731', 'temperature': 126.8}
+2025-09-07 02:49:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:00.244994', 'temperature': 127.2}
+2025-09-07 02:49:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:05.250736', 'temperature': 127.6}
+2025-09-07 02:49:10 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:10.266718', 'temperature': 128.0}
+2025-09-07 02:49:15 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:15.280128', 'temperature': 128.4}
+2025-09-07 02:49:20 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:20.293483', 'temperature': 128.8}
+2025-09-07 02:49:25 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:25.311034', 'temperature': 129.2}
+2025-09-07 02:49:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:30.314978', 'temperature': 129.6}
+2025-09-07 02:49:35 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:35.321663', 'temperature': 130.0}
+2025-09-07 02:49:40 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:40.338089', 'temperature': 130.4}
+2025-09-07 02:49:45 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:45.350087', 'temperature': 130.8}
+2025-09-07 02:49:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:50.359374', 'temperature': 131.2}
+2025-09-07 02:49:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:19:55.364195', 'temperature': 131.6}
+2025-09-07 02:50:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:00.366230', 'temperature': 132.0}
+2025-09-07 02:50:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:05.379617', 'temperature': 132.4}
+2025-09-07 02:50:10 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:10.390015', 'temperature': 132.8}
+2025-09-07 02:50:15 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:15.399139', 'temperature': 133.2}
+2025-09-07 02:50:20 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:20.406643', 'temperature': 133.6}
+2025-09-07 02:50:25 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:25.418267', 'temperature': 134.0}
+2025-09-07 02:50:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:30.424728', 'temperature': 134.4}
+2025-09-07 02:50:35 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:35.440717', 'temperature': 134.8}
+2025-09-07 02:50:40 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:40.452703', 'temperature': 135.2}
+2025-09-07 02:50:45 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:45.466483', 'temperature': 135.6}
+2025-09-07 02:50:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:50.477162', 'temperature': 136.0}
+2025-09-07 02:50:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:20:55.489303', 'temperature': 136.4}
+2025-09-07 02:51:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:00.501260', 'temperature': 136.8}
+2025-09-07 02:51:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:05.518369', 'temperature': 137.2}
+2025-09-07 02:51:10 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:10.529201', 'temperature': 137.6}
+2025-09-07 02:51:15 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:15.537901', 'temperature': 138.0}
+2025-09-07 02:51:20 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:20.547629', 'temperature': 138.4}
+2025-09-07 02:51:25 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:25.562933', 'temperature': 138.8}
+2025-09-07 02:51:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:30.569132', 'temperature': 139.2}
+2025-09-07 02:51:35 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:35.586196', 'temperature': 139.6}
+2025-09-07 02:51:40 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:40.597216', 'temperature': 140.0}
+2025-09-07 02:51:45 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:45.607864', 'temperature': 140.4}
+2025-09-07 02:51:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:50.623695', 'temperature': 140.8}
+2025-09-07 02:51:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:21:55.626268', 'temperature': 141.2}
+2025-09-07 02:52:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:00.643106', 'temperature': 141.6}
+2025-09-07 02:52:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:05.650385', 'temperature': 142.0}
+2025-09-07 02:52:10 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:10.659707', 'temperature': 142.2}
+2025-09-07 02:52:15 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:15.672204', 'temperature': 142.0}
+2025-09-07 02:52:20 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:20.688835', 'temperature': 142.2}
+2025-09-07 02:52:25 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:25.701832', 'temperature': 142.0}
+2025-09-07 02:52:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:30.714606', 'temperature': 142.2}
+2025-09-07 02:52:35 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:35.729341', 'temperature': 142.0}
+2025-09-07 02:52:40 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:40.734344', 'temperature': 142.2}
+2025-09-07 02:52:45 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:45.746486', 'temperature': 142.0}
+2025-09-07 02:52:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:50.748685', 'temperature': 142.2}
+2025-09-07 02:52:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:22:55.759307', 'temperature': 142.0}
+2025-09-07 02:53:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:00.764307', 'temperature': 142.2}
+2025-09-07 02:53:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:05.768534', 'temperature': 142.0}
+2025-09-07 02:53:10 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:10.779779', 'temperature': 142.2}
+2025-09-07 02:53:15 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:15.791302', 'temperature': 142.0}
+2025-09-07 02:53:20 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:20.802397', 'temperature': 142.2}
+2025-09-07 02:53:25 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:25.813312', 'temperature': 142.0}
+2025-09-07 02:53:30 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:30.823134', 'temperature': 142.2}
+2025-09-07 02:53:35 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:35.840071', 'temperature': 142.0}
+2025-09-07 02:53:40 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:40.847665', 'temperature': 142.2}
+2025-09-07 02:53:45 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:45.859772', 'temperature': 142.0}
+2025-09-07 02:53:50 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:50.869173', 'temperature': 142.2}
+2025-09-07 02:53:55 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:23:55.872669', 'temperature': 142.0}
+2025-09-07 02:54:00 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:00.876677', 'temperature': 142.2}
+2025-09-07 02:54:05 | INFO | [Karto CSV Producer] Sent message to topic 'smoker_csv': {'timestamp': '2025-09-06T21:24:05.885834', 'temperature': 142.0}
