@@ -131,6 +131,25 @@ python3 -m producers.json_producer_case
 What did we name the topic used with JSON data?
 Hint: See the producer code and [.env](.env).
 
+### Start Kafka JSON Producer (`stock_alerts`)
+
+This producer streams stock alert data as JSON messages.
+
+**Windows:**
+
+```shell
+.venv\Scripts\activate
+py -m producers.json_producer_karto
+```
+
+**Mac/Linux:**
+
+```bash
+source .venv/bin/activate
+python3 -m producers.json_producer_karto
+```
+
+
 ## Task 4. Start a Kafka JSON Consumer
 
 This consumer processes streaming JSON data.
@@ -156,6 +175,27 @@ What did we name the topic used with JSON data?
 Hint: See the consumer code and [.env](.env).
 
 ---
+
+### Start Kafka JSON Consumer (`stock_alerts`)
+
+This consumer processes the JSON stock alert messages.
+
+**Windows:**
+
+```shell
+.venv\Scripts\activate
+py -m consumers.json_consumer_karto
+```
+
+**Mac/Linux:**
+
+```bash
+source .venv/bin/activate
+python3 -m consumers.json_consumer_karto
+```
+
+---
+
 
 ## Task 5. Start a Kafka CSV Producer
 
@@ -198,6 +238,47 @@ Hint: Windows:
 .venv\Scripts\activate
 py -m consumers.csv_consumer_case
 ```
+
+### Start Kafka CSV Producer (`delivery_status`)
+
+This producer streams delivery status data as JSON messages from CSV.
+
+**Windows:**
+
+```shell
+.venv\Scripts\activate
+py -m producers.csv_producer_karto
+```
+
+**Mac/Linux:**
+
+```bash
+source .venv/bin/activate
+python3 -m producers.csv_producer_karto
+```
+
+---
+
+### Start Kafka CSV Consumer (`delivery_status`)
+
+This consumer processes delivery status messages.
+
+**Windows:**
+
+```shell
+.venv\Scripts\activate
+py -m consumers.csv_consumer_karto
+```
+
+**Mac/Linux:**
+
+```bash
+source .venv/bin/activate
+python3 -m consumers.csv_consumer_karto
+```
+
+---
+
 
 ---
 
